@@ -1,0 +1,783 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu|Gloria+Hallelujah|Rock+Salt');
+
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Gaegu', cursive;
+
+#body {
+    font-family: Akbar, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #e6ffff;
+}
+
+/*-----animation-------*/
+
+.main {
+    animation: bgcolor infinite 20s;
+}
+
+@keyframes bgcolor {
+    0% {
+        background: #cccc00;
+    }
+    20% {
+        background: #ffff00;
+    }
+    40% {
+        background: #e6e600;
+    }
+    60% {
+        background: #999900;
+    }
+    80% {
+        background: #ffff33;
+    }
+    100% {
+        background: #ffff66;
+    }
+}
+
+
+
+
+/*Genial*/
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 17px;
+    
+}
+.container h3 {
+    font-weight: bold;
+    color:#1a0600;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.dark {
+    padding: 15px;
+    background: #fbc531;
+    color: #000;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.button_1 {
+    border: none;
+    background: #F79F1F;
+    color: #404040;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 300ms ease;
+    font-family: 'Rock Salt', cursive;
+
+
+}
+
+.button_1:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 47px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    transition: all 2s ease;
+}
+
+.button_1:hover:before {
+    width: 100%;
+}
+
+/*Title*/
+
+
+
+
+/*header*/
+
+
+header {
+    background: #BA5536;
+    color: #332900;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:#fbc531 4px solid;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #bart {
+    float: left;
+}
+
+
+header #bart h1 {
+    margin: 0;
+
+}
+
+header nav {
+    float: right;
+    margin-top: 15px;
+}
+
+header .highlight,
+header .current a {
+    color: #fff200;
+    font-weight: lighter;
+
+}
+
+header a:hover {
+    color: #ffda79;
+    font-weight: bolder;
+}
+
+/*Showcase*/
+
+#showcase {
+    min-height: 700px;
+    background: url("/assets/images/background.jpg") no-repeat -0 0;
+    text-align: center;
+    color: #ffb399;
+
+
+
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+
+}
+
+#showcase p {
+    font-size: 14px;
+}
+
+/*newsletter*/
+
+#newsletter {
+    padding: 15px;
+    color: #000;
+    background: #eccc68;
+    border-bottom: 3px #eb2f06 solid;
+
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 45px;
+    width: 150px;
+}
+.new{
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  left:55%;
+  background:url("/assets/images/itchy100_100.jpg");
+  background-size: content;
+  background-position: center;
+  background-repeat: no-reapeat;
+}
+.new {
+   
+    transition: transform .2s; /* Animation */
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.new:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+/*Flex couch for images*/
+
+.couch {
+    background-color: yellow;
+    width: 100%;
+    display: flex;
+    flex-direction: center;
+
+}
+
+/*
+.item{
+    background-color:violet;
+    width:300px;
+    height:100px;
+    margin:20px;
+}*/
+
+/*boxes*/
+
+#boxes {
+    margin-top: 0px;
+    background-color:#CD7213;
+    color:#4d4d33;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+/*Sidebar*/
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+.button_2{
+    height: 15px;
+    margin-top: 10px;
+    border:2px solid red;
+}
+
+/*Main-col*/
+
+article#main-col {
+    float: left;
+    width: 65%;
+
+
+}
+
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {}
+
+aside#sidebar .quote textarea
+/*Services*/
+
+ul#service li {
+    list-style: none;
+    padding: 20px;
+    border:  #994d00 solid 2px;
+    margin-bottom: 5px;
+    background: #d9f2e6;
+
+
+
+}
+
+footer {
+    padding: 20px;
+    
+    color: #000;
+    background-color: #DDBC95;
+    text-align: center;
+}
+
+/*media*/
+
+@media (max-width: 766px) {
+ article#main-col{
+        width:100%;
+        padding: 0px 0px; 
+        
+    }
+ aside#sidebar{
+     width:100%;
+     padding: 0px 0px;
+     
+ }
+
+ }
+ .containerV ul li{
+     width: 45%;
+    
+     display: list-item;
+ }
+ 
+ 
+
+ 
+    
+
+
+
+@media(max-width: 767px) {
+    .couch,
+    header #bart,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    .article#main-col,
+    .aside#sidebar,.wrapper,
+    .container{
+
+        float: none;
+        text-align: center;
+        width: 100%;
+
+    }
+    
+    
+    }
+    header {
+        padding-bottom: 20px;
+    }
+    #showcase h1 {
+        margin-top: 40px;
+    }
+    #newsletter button {
+        display: inline-block;
+        width: 100%;
+    }
+    #newsletter form input[type="email"],
+    .quote input,
+    .quote textarea {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+      
+
+
+
+/*----Services----*/
+
+ul#service li {
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 2px;
+    margin-bottom: 5px;
+    background: #d9f2e6;
+
+
+
+}
+
+.social-icons {
+
+    margin-right: 1300px;
+    vertical-align: bottom;
+
+}
+
+.pull-right {
+    position: relative;
+    right: 75px;
+    bottom: 28px;
+
+
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+
+footer {
+    padding: 20px;
+    
+    color: #133926;
+    background-color: #ac7339;
+    text-align: center;
+    width: 100%;
+
+}
+
+/*----Videos library----*/
+
+.containerV {
+    width: 97.5%;
+    background: #fbc531;
+    overflow: hidden;
+    margin: 20px auto;
+    
+    
+}
+
+.containerV ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.containerV ul li {
+    list-style: none;
+    float: left;
+    width: 30.5%;
+    height: 250px;
+    background: #f7d794;
+    margin: 10px 10px 10px 10px;
+    border-bottom: 1px ridge #fbc531;
+    border-right: 1px solid #fbc531;
+    margin-bottom:10px;
+
+}
+
+.containerV ul li:hover {
+    opacity: 0.9;
+}
+
+.containerV ul li .title:hover {
+    background: orange;
+    color: white;
+}
+
+
+.containerV ul li .title {
+    width: 100%;
+    height: 40px;
+    line-height: 50px;
+    background: yellow;
+    text-align: center;
+
+}
+
+/*------Audio-----*/
+
+.audio {
+    font-size: 3vh;
+    padding: left;
+    display: inline;
+}
+
+/*---Slider----*/
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+figure {
+    margin: 0;
+    background: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 100;
+}
+
+div#captioned-gallery {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    background-size: cover
+}
+
+figure.slider {
+    position: relative;
+    width: 500%;
+    font-size: 0;
+    animation: 15s 6s  slidy infinite;
+}
+
+figure.slider figure {
+    width: 20%;
+    height:auto;
+    display: inline-block;
+    position: inherit;
+}
+
+figure.slider img {
+    width: 100%;
+    height: auto;
+}
+
+figure.slider figure figcaption {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    color: #a5b812;
+    width: 100%;
+    font-size: 2rem;
+    padding: .6rem;
+}
+/*Title concerts*/
+
+.right-audio {
+    position: relative;
+    right: 75px;
+    bottom: 28px;
+}
+
+.page-title {
+    background: url("/assets/images/images.jpg");
+    text-align: center;
+    font-style: oblique;
+    height: 55px;
+    margin: 0px;
+    border: 3px #b38600 solid;
+    border-radius: 350px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+/*----Contact----*/
+
+.large{
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact1{
+    color:#fff;
+    position:relative;
+    background:url("/assets/images/moe phone.png") center fixed no-repeat;
+   background-size:cover;
+   
+}
+
+
+.ctitle h2{
+    font-size: 34px;
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    
+    
+}
+.ctitle p{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.input ul{
+    margin-top:20px;
+    margin-left: 20px;
+    text-decoration: none;
+    
+}
+.input li{
+    margin:15px 0px;
+    font-weight: 200;
+    font-size: 15px;
+    
+}
+
+.input li a{
+    color:#000;
+}
+.input form label{
+    font-weight: 200; 
+    font-size: 25px;
+}
+.input form legend{
+    color: #000;
+    font-size: 50px;
+}
+    .text{
+    color:red;
+}
+
+
+.input form .form-control{
+    color:#000;
+    box-shadow: none;
+    border-color:#000;
+    background: rgba(0,0,0,0.2);
+}
+.input form .form-control:focus{
+    background: rgba(0,0,0,0.6);
+}
+.red{
+    color:#ea0000;
+    
+}
+
+.btn{
+    font-size: 15px;
+    cursor:pointer;
+    font-weight: 400;
+    margin-top: 10px;
+    padding: 5px 15px;
+    border:1px #e84118 solid;
+    background: #e84118;
+    border-radius: 12%;
+}
+.btn:hover{
+    background:#c23616;
+    color:gray;
+}
+
+
+
+/*---acordeon---*/
+body {
+  color: #000;
+  background: yellow;
+}
+h1 {
+  text-align: center;
+}
+.half {
+  float: left;
+  width: 100%;
+  padding: 0 1em;
+}
+/* Acordeon styles */
+.tab {
+  position: relative;
+  margin-bottom: 1px;
+  width: 100%;
+  color: #000;
+  overflow: hidden;
+}
+.tab input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.tab label {
+  position: relative;
+  display: block;
+  padding: 0 0 0 1em;
+  background: #E4B600;
+  font-weight: bold;
+  line-height: 3;
+  cursor: pointer;
+}
+.blue label {
+  background: #2980b9;
+}
+.tab-content {
+  max-height: 0;
+  overflow: hidden;
+  background: #EE5A24;
+  transition: max-height .35s;
+}
+.blue .tab-content {
+  background: #3498db;
+}
+.tab-content p {
+  margin: 1em;
+}
+/* :checked */
+.tab input:checked ~ .tab-content {
+  max-height: 100vh;
+}
+/* Icon */
+.tab label::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 3em;
+  height: 3em;
+  line-height: 3;
+  text-align: center;
+  
+  transition: all .35s;
+}
+.tab input[type=checkbox] + label::after {
+  content: "+";
+}
+.tab input[type=radio] + label::after {
+  content: "\25BC";
+}
+.tab input[type=checkbox]:checked + label::after {
+  transform: rotate(315deg);
+}
+.tab input[type=radio]:checked + label::after {
+  transform: rotateX(180deg);
+}
+
+
+

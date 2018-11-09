@@ -1,146 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="assets/style.css" type="text/css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	
-	<title>C&M</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<title>Concerts and gags</title>
+
 </head>
+
 <body>
 	<header>
 		<div class="container">
-			<div id="bart">   <!--------------------bar-t(op)-->
-				<h1>The <span class="highlight">Simpsons</span> band</h1>
+			<div id="bart">
+				<!--------------------bar-t(op)-->
+				
+				<h1> <a href="/index.html"> <span class="highlight" style="text-transform: capitalize;font-size: 38px;"> The Simpsons band</span> </a></h1>
 			</div>
 			<nav>
 				<ul>
-					<li ><a href="index.html">Home</a></li>
-					<li ><a href="library.html">Library</a></li>
-					<li class="current"><a href="gigs.html">Concerts & Gigs</a></li>
+					<li><a href="/index.html">Home</a></li>
+					<li><a href="/library.html">Media Library</a></li>
+					<li class="current"><a href="/gigs.html">Music and gigs</a></li>
+					<li><a href="/Contact.html">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
-	
-		
-		<section id="newsletter">
-			<div class="container">
-				<h1>Itchy and Scratchy Gazette </h1>
-				<form>
-					<input type="email" placeholder="Enter e-mail...">
-					<button type="submit" class="button_1">Suscribe</button>
-				</form>
-			</div>
-		</section>
-		
-			<section id="main">
-			<div class="container">
-			
-			<p class="audio"> 
-			<label for="The Simpsons oppening theme">
-			</label>The Simpsons oppening theme</p>
-			
-			<audio
-			id="The Simpsons oppening theme"
-			controls
-			src="/imag/social/music+/The Simpsons Intro Season 1 1990.mp3"></audio>
-			<br><br>
-			
-			<label for="Dr Zaius musical">
-			</label>Dr Zaius musical</p>
-			
-			<audio
-			id="Dr Zaius musical"
-			controls
-			src="/imag/social/music+/Dr Zaius But It.mp3"></audio>
-			</p>
-			<br>
-			
-			
-			
-			<label for="Garden of Eden">
-			</label>Garden of Eden</p>
-			
-			<audio
-			id="Garden of Eden"
-			controls
-			src="/imag/social/music+/The Simpson singing scene garden of eden.mp3"></audio>
-			<br><br>
-			
-			<label for="Dr Zaius musical">
-			</label>Dr Zaius musical</p>	
-				<audio
-			id="Dr Zaius musical"
-			controls
-			src="/imag/social/music+/Dr Zaius But It.mp3"></audio>
-			</p>
-			<br>
-			
-				
+
+
+	<section id="newsletter">
+
+		<div class="container" class="large">
+			<div class="new"></div>
+			<h1>Itchy and Scratchy Gazette </h1>
+			<form>
+				<input type="email" placeholder="Enter e-mail..." required>
+				<button type="submit" class="button_1" style="
+    height: 47px;
+">Suscribe</button>
+			</form>
+		</div>
+	</section>
+
+	<section id="main1" ;="" style="
+    animation: bgcolor infinite 20s;">
+		<div class="container">
+
+			<div class="element">
+
+
 				<article id="main-col">
-				    <h1 class="page-title">concerts</h1>
-				    <ul id="service">
-				        <li>
-				            <h3>Homer</h3>
-				            <p>die Fettsack</p>
-				        </li>
-				           <li>
-				            <h3>Marge</h3>
-				            <p>Blaue Turm</p>
-				        </li>
-				          <li>
-				            <h3>Bart</h3>
-				            <p>Ay Caramba</p>
-				        </li>
-				        
-				        
-				        
-				    </ul>
-				    
-				    
-				    
-				</article >
-				
-				
+					<h1 class="page-title">𝄟♬ Concerts</h1>
+					<ul id="service">
+
+
+						<li style="background: url(&quot;/assets/images/simpsons 2.jpg&quot;)center;background-size:cover;background-repeat: no-repeat; border-radius: 15%;">
+							<h3 style="color:yellow;text-align:center;">Springfield</h3>
+							<p style="color:yellow;"><label for="audio">
+			</label>The Simpsons and Springfield city</p>
+							<audio id="Opening song" controls src="/assets/audio/The Simpsons Intro Season 1 1990.mp3" style="width: 45%"></audio></p>
+							<p class="audio">
+								<label for="audio">
+			</label>Greatest hits</p>
+							<audio id="Greatest hits" controls src="/assets/audio/Top 10 Simpsons Songs.mp3" style="width: 95%"></audio> </p>
+						</li>
+
+
+
+						<li style="background: url(&quot;/assets/images/homer-clones.jpg&quot;)center;background-size:cover;background-repeat: no-repeat; border-radius: 15%;">
+							<h3 style="color:yellow;">Homer</h3>
+							<p style="color:yellow;"><label for="audio">
+			</label>Homer discography</p>
+
+							<audio id="Homers voice" controls src="/assets/audio/Greatest Hits by Homer Simpson.mp3" style="width: 45%"></audio></p>
+							<p class="audio">
+								<label for="audio">
+			</label>Push it to the limits</p>
+							<audio id="LA Z" controls src="/assets/audio/LA Z Rider Couch Gag From Guest Animator Steve Cutts   Season 27   THE SIMPSONS.mp3" style="width: 95%"></audio> </p>
+						</li>
+
+
+
+
+
+
+						<li style="background: url(&quot;/assets/images/bart-simpson-wal.jpg&quot;)center;background-size:cover;background-repeat: no-repeat; border-radius: 15%;">
+							<h3 style="color:yellow;">Bart</h3>
+							<p style="color:yellow;"><label for="audio">
+			</label>Bart and bartman,...batman</p>
+
+							<audio id="Bart" controls src="/assets/audio/Do The Bartman (The Simpsons).mp3" style="width: 45%"></audio></p>
+							<p class="audio">
+
+							</p>
+						</li>
+
+						<li style="background: url(&quot;/assets/images/lisa_simpson.jpg&quot;)center;background-size:cover;background-repeat: no-repeat; border-radius: 15%;">
+							<h3 style="color:yellow;">Lisa</h3>
+							<p style="color:yellow;"><label for="audio">
+			</label>Lisa social protest</p>
+							<audio id="Lisa" controls src="/assets/audio/Union strike folk song.mp3" style="width: 95%;"></audio>
+							</p>
+							</p>
+						</li>
+
+						<li style="background: url(&quot;/assets/images/maxresdefault.jpg&quot;)center;background-size: cover;background-repeat: no-repeat; border-radius: 15%;">
+							<h3 style="color:yellow;">Maggie</h3>
+							<p style="color:yellow;"><label for="audio">
+			</label>Maggie´s infinte song </p>
+							<audio id="Maggie" controls src="/assets/audio/Magies song.mp3" style="width: 95%;"></audio>
+							</p>
+							</p>
+						</li>
+
+						<li style="background: url(&quot;/assets/images/flying Marge.jpg&quot;)center;background-size: cover;background-repeat: no-repeat;border-radius: 15%;">
+							<h3 style="color:yellow;">Marge</h3>
+							<p style="color:yellow;"><label for="audio">
+			</label>Marge Soul song</p>
+							<audio id="Marge" controls src="/assets/audio/Sing the Blues Springfield Soul Stew by Marge Simpson.mp3" style="width: 95%;"></audio>
+							</p>
+							</p>
+						</li>
+					</ul>
+				</article>
+
 				<aside id="sidebar">
-				    <div class="dark">
-				    <form class="quote">
-				       
-				        <div>
-				        <label>Name</label><br>
-				        <input type="text" placeholder="Name">
-				        </div>
-				        <div>
-				            <label>Email</label><br>
-				            <input> <type="email" placeholder="Email Adress">
-				            </div>
-				            <div>
-				                <label>Message</label></br>
-				                <textarea placeholder="Message"></textarea>
-				            </div>
-				            <bottom class="button_1" type="submit">Send</bottom>
-				        <label>
+
+					<div class="dark">
+						<form class="quote">
+
+
+
+							<div>
+								<label>Name</label><br>
+								<input type="text" placeholder="Name">
+							</div>
+							<div>
+								<label> Email </label><br>
+
+								<input type="email" placeholder="Email Adress">
+							</div>
+							<div>
+								<label>Message</label></br>
+								<textarea placeholder="Message"></textarea>
+							</div>
+							<button type="submit" class="btn">Send</button>
+							<label>
 				    </form>
 				   </div> 
-				    
-				</aside>
+				   <div class="underA">
+				   	
+				   	
+				   		<p>
+				   			Please suscribe or if you would like to know better the Simpsons you can follow them on the social media or see their videos.
+				   		</p>
+				   	
+				   </div>
+				   
+				   <p>
+				   
+				   <div class="wrapper">
+					<h1>Extract from the last <span>Itchy and Scratchy</span> number</h1>
+
+					<div class="half">
+						<p>"The Simpsons" are an average American family. There are always new stories to tell about <strong>Homer, Marge, Bart, Lisa and Maggie</strong> and about the other residents of <strong>Springfield</strong>."</p>
+						<div class="tab">
+							<input id="tab-one" type="checkbox" name="tabs">
+							<label for="tab-one">Homer</label>
+							<div class="tab-content">
+								<p> The family was conceived by Groening shortly before a solicitation for a series of animated shorts with producer James L. Brooks. Groening created a dysfunctional family and named the characters after his own family members, substituting Bart
+									for his own name. The shorts became a part of The Tracey Ullman Show on April 19, 1987. After three seasons, the sketch was developed into a half-hour prime time show and became Fox's first series to land in the Top 30 ratings in a season (1989–90).</p>
+							</div>
+					</div>
+					<div class="tab">
+						<input id="tab-two" type="checkbox" name="tabs">
+						<label for="tab-two">The rest of the family</label>
+						<div class="tab-content">
+							<p> Does Apu have to leave the "Simpsons"? The racism dispute over the Indian "Simpsons" character Apu does not come to rest: A TV producer now claims that Fox wants to wipe out the character from the hit series, despite all suggestions for improvement.
+								<iframe width="95%" height="255" src="https://www.youtube.com/embed/5iFmFA4fJYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Do you have any thoughts on the criticism
+								of Apu as a stereotype? Groening: Not really. I’m proud of what we do on the show. And I think it’s a time in our culture where people love to pretend they’re offended.
+							</p>
+						</div>
+					</div>
+					<div class="tab">
+						<input id="tab-three" type="checkbox" name="tabs">
+						<label for="tab-three">Springfield</label>
+						<div class="tab-content">
+							<p>
+								Reporter: Why do the Simpsons live in a town called Springfield? Isn’t that a little generic? Matt Groening: Springfield was named after Springfield, Oregon. The only reason is that when I was a kid, the TV show “Father Knows Best” took place in the town
+								of Springfield, and I was thrilled because I imagined that it was the town next to Portland, my hometown. When I grew up, I realized it was just a fictitious name. I also figured out that Springfield was one of the most common names for a city
+								in the U.S. In anticipation of the success of the show, I thought, “This will be cool; everyone will think it’s their Springfield.” And they do that.
+							</p>
+						</div>
+					</div>
+					<div class="tab">
+						<input id="tab-four" type="checkbox" name="tabs">
+						<label for="tab-four">Last news</label>
+						<div class="tab-content">
+							<p>"Netflix announced that Matt Groening, creator of The Simpsons and Futurama, will be developing a medieval animated adult fantasy called Disenchantment. It’s scheduled to begin streaming on Netflix in 2018." </p>
+						</div>
+					</div>
 			</div>
-			
-		</section>
-<div class:"big_foot">
-	
+
+
+
+
+
+
+
+			</aside>
+		</div>
+
+	</section>
+
+
+
 	</div>
+
 	<footer>
-		<a href="#" class="fa fa-facebook"></a>
-		<a href="#" class="fa fa-youtube"></a>
-		<a href="#" class="fa fa-twitter"></a>
+		<a href="https://www.facebook.com/TheSimpsons/" class="fa fa-facebook "></a>
+		<a href="https://www.youtube.com/channel/UC6v9JbzcdEcZsXcVpBsMq-g" class="fa fa-youtube "></a>
+		<a href="https://twitter.com/thesimpsons?lang=en" class="fa fa-twitter "></a>
+
 		<p>Trademark & Copyright Notice: ™ and &copy; 2018 FOX and its related entities.</p>
 	</footer>
-		
-	
+
+
+
 </body>
+
 </html>
