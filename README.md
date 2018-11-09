@@ -16,10 +16,19 @@ small history and the last news that  envolve Simpsons planet
 ##  User experience   
 Mochups:
 
+![](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/acordeon%20view.jpg) acordeon  
+![](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/basic%20idea.jpg) basic idea  
+![](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/final%20proyect.jpg) final proyect  
+
+![](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/media%20queries.jpg)media queries  
+![](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/other%20ideas.jpg)other ideas
+![](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/view%20from%20all%20pages.jpg) proyect view
 
 
 
-The website is designed for all public fans or not of The Simpsons. It is designed by one fan ,introducing the viewer to the Simpsons wolrld throgh viedeos, music and text,  
+
+
+The website is designed for all public fans or not of The Simpsons. It is designed by one fan ,introducing the viewer to the Simpsons wolrd throgh viedeos, music and text,  
 The user can, for intance understand how one of the charaters is in the Serial, and also listen him singing or read something about him.  
 At the Contct page one can send The Simpsons an email or visit a link to onther of their pages or look for their adress  
 
