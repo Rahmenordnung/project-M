@@ -385,23 +385,43 @@ footer {
 
 
 /*----Services----*/
-
+/*
 ul#service li {
     list-style: none;
     padding: 20px;
     border: #cccccc solid 2px;
     margin-bottom: 5px;
     background: #d9f2e6;
+}
+*/
+.bordered {
+    border: #ff0000 solid 2px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15%;
+}
 
+.bordered h3 {
+    color: yellow;
+    text-align: center;
+}
 
+.bordered p {
+    color: yellow;
+}
+    
+.bordered audio {
+    width: 45%;
+}
 
+.bordered audio .long {
+    width: 95%;
 }
 
 .social-icons {
-
     margin-right: 1300px;
     vertical-align: bottom;
-
 }
 
 .pull-right {
@@ -517,55 +537,42 @@ footer {
         left: 0%;
     }
     20% {
-        left: 0%;
+        left: -100%;
     }
     25% {
         left: -100%;
     }
     45% {
-        left: -100%;
+        left: -200%;
     }
     50% {
         left: -200%;
     }
     70% {
-        left: -200%;
+        left: -300%;
     }
     75% {
         left: -300%;
     }
     95% {
-        left: -300%;
+        left: -400%;
     }
     100% {
         left: -400%;
     }
 }
 
-* {
-    box-sizing: border-box;
-}
-
-body,
-figure {
-    margin: 0;
-    background: white;
-    font-family: 'Gloria Hallelujah', cursive;
-    font-weight: 100;
-}
-
-div#captioned-gallery {
-    width: 100%;
-    overflow: hidden;
-    height: auto;
-    background-size: cover
-}
-
 figure.slider {
     position: relative;
     width: 500%;
     font-size: 0;
-    animation: 15s 6s  slidy infinite;
+    /*animation: 15s 6s slidy infinite;*/
+    animation-name: slidy;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-fill-mode: ;
 }
 
 figure.slider figure {
@@ -589,6 +596,26 @@ figure.slider figure figcaption {
     font-size: 2rem;
     padding: .6rem;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+figure {
+    margin: 0;
+    background: white;
+    font-family:'Gloria Hallelujah', cursive;
+    font-weight: 100;
+}
+
+div#captioned-gallery {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    background-size: cover
+}
+
 /*Title concerts*/
 
 .right-audio {
@@ -617,12 +644,16 @@ figure.slider figure figcaption {
     padding-bottom: 100px;
 }
 .contact1{
-    color:#fff;
+    color:red;
     position:relative;
     background:url("/assets/images/moe phone.png") center fixed no-repeat;
    background-size:cover;
    
 }
+.list-unstyled{
+    color:red;
+}
+.fox-page{color:red;}
 
 
 .ctitle h2{
@@ -710,7 +741,7 @@ h1 {
 .half {
   float: left;
   width: 100%;
-  padding: 0 1em;
+ 
 }
 /* Acordeon styles */
 .tab {
@@ -728,11 +759,11 @@ h1 {
 .tab label {
   position: relative;
   display: block;
-  padding: 0 0 0 1em;
+  padding: 0 0 0 1vh;
   background: #E4B600;
-  font-weight: bold;
+  font-weight: 200;
   line-height: 3;
-  cursor: pointer;
+  cursor: help;
 }
 .blue label {
   background: #2980b9;
@@ -741,13 +772,13 @@ h1 {
   max-height: 0;
   overflow: hidden;
   background: #EE5A24;
-  transition: max-height .35s;
+  transition: max-height .75s;
 }
 .blue .tab-content {
   background: #3498db;
 }
 .tab-content p {
-  margin: 1em;
+  margin: 1vh;
 }
 /* :checked */
 .tab input:checked ~ .tab-content {
@@ -779,5 +810,8 @@ h1 {
   transform: rotateX(180deg);
 }
 
-
-
+@media only screen and (max-width: 1200px) {
+    .new {
+        display: none;
+    }
+}
