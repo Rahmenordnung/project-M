@@ -6,7 +6,7 @@
  tudorpascu787@gmail.com
  
  
- [create an anchor](##Features)
+ [create an anchor](# Testing )
  
 
 
@@ -19,6 +19,8 @@ small history and the last news that  envolve Simpsons planet
 
 ##  User experience   
 Mochups:
+
+![GitHub Logo](assets/image-balsamiq/indexbalsamiq.jpg)
 
 ![](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/acordeon%20view.jpg) acordeon  
 ![](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/basic%20idea.jpg) basic idea  
@@ -88,7 +90,7 @@ The commun element of each page along the site is a menu under the <nav> selecto
 2. "Jquery" used to    
 3.  "Font awesome" used to allow the footer icon to work properly  
 
-## Testing 
+# Testing 
 
 During the producing time I tested all the link from the navbar, that they take to the desired page and back again.  
 That the slider runs correctly, showing the desired pictured, creating  the correct envoirment.  
