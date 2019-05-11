@@ -7,12 +7,21 @@ body {
 }
 
 /*Genial*/
-/*
+
+.col-6 col-md-4{
+    
+    margin-bottom: 25px;
+}
+
+.col_b{
+    margin-left: 55px
+}
+
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
-}*/
+}
 
 ul {
     margin: 0;
@@ -209,12 +218,15 @@ header a:hover {
     width: 90px;
 }
 
+
+
 /*Sidebar*/
 
 aside#sidebar {
     float: right;
     width: 30%;
     margin-top: 10px;
+    margin-bottom: 600px;
 }
 
 /*Main-col*/
@@ -268,8 +280,10 @@ footer {
         float: none;
         text-align: center;
         width: 100%;
-
+        
     }
+ 
+    
     header {
         padding-bottom: 20px;
     }
@@ -334,7 +348,7 @@ ul#service li {
 
 footer {
     padding: 20px;
-    margin-top: 205px;
+    margin-top: 255px;
     color: #133926;
     background-color: #ac7339;
     text-align: center;
@@ -393,3 +407,24 @@ footer {
     padding: left;
     display:inline;
 }
+
+/*newspaper effect*/
+
+.new{
+ border-style: solid;
+  border-width: 2px 10px 4px 20px;
+  
+  
+
+}
+
+.title2{ 
+    
+    margin-left: 35px
+}
+
+.input li a{
+    color:blue;
+}
+
+

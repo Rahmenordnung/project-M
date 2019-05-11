@@ -36,10 +36,12 @@ At the Contct page one can send The Simpsons an email or visit a link to onther 
 
 
 ## Features 
-The site has 4 different pages that can be accesed from the main page, THE HOME PAGE: that also contains a small resumee of the page and some images on a slider.  
-                Library which has  a section of videos in a flexbox table with an aside collapsible that has short information about each characters of the The Simspon Family  
-                Concerts and Gigs contains some audio file of each character , and a songs that make toghether a concert with the voices of The Simpsons.  
-                 Also there is an aside text that contains an extraxt of the latest news surounding The Simnpsons  
+The site has 4 different pages that can be accesed from the main page, which is 
+                THE HOME PAGE: that also contains a small resumee of the page and some images on a slider.  
+                LIBRARY which has  a section of videos in a flexbox table with an aside collapsible that has short information about each characters of the The Simspon Family  
+                CONCERTS AND GIGS contains some audio file of each character , and a songs that make toghether a concert with the voices of The Simpsons ,also there is an aside text that contains an extraxt of the latest news surounding The Simpsons   
+                ITCHY AND SCRATCY GAZETTE is a small extract of the latest news and rumos that suround the Simpsons family
+                CONTACT contains a form that can be used to talk to any of the personages or authors.
 
 
 
@@ -61,7 +63,11 @@ The commun element of each page along the site is a menu under the <nav> selecto
                   * Has a structure basic with menu and the gazzete with the submit form. Then there is a list of audio recors grouped by characters background,that one can listen or either download   
                   * One the right there is an aside that cointains a selection of extracts,quotes,news from Itchy an Scratchys gazzete.  
                   * Also there is an animated background  in 5 colors that complete the page, made with @keyframes help.  
-                  * And a footer as in the other pages.  
+                  * And a footer as in the other pages.
+## Itchy and Scratchys gazette ## 
+                  * Is divided in 5 columns of text renederd with the grid system and responsive to small devices.
+                  *Also contains some anchor tags with some gif images that contexualize the text and give the impresion of modernity
+                  
 ## Contact.html ##
                  * The page is conformed by the <navbar> and a big form with The Simpsons contact informations, of course is not real , but if one hover over The Simpson name there is a link to   
                  * The official Fox page where one can se the latest Simpsons episodes.In this form the email and the message thet the user desires to send to the Simpson is required and therefore are marked with a small red star.  

@@ -70,6 +70,17 @@ ul {
     margin-top: 18px;
     margin-bottom: 10px;
     text-align: center;
+    background:url("/assets/images/transparent-envelope-template5.jpg") center no-repeat;
+}
+.dark2{
+    padding: 15px;
+    background: #fbc531;
+    color: #000;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    background:url("/assets/images/yellow-c5-banker_grande.jpg") center no-repeat;
+    
 }
 
 .button_1 {
@@ -308,15 +319,48 @@ ul#service li {
 
 }
 
+
+/* personages video */
+
+.personage{
+    color:#3300ff;
+}
+.personage2{
+    color:#ff3300;
+}.personage3{
+    color:gray;
+}
+.personage4{
+    color:#00ccff;
+}
+.personage5{
+    color: #ff00cc;
+}
+.personage6{
+    color:#4cff00;
+}
+
+/* audio styling */
+
+
+
 footer {
     padding: 20px;
     
     color: #000;
     background-color: #DDBC95;
     text-align: center;
+    width: 100%
 }
 
 /*media*/
+
+@media (min-width: 766px) { 
+    iframe{
+        width:100%;
+    }
+    
+}
 
 @media (max-width: 766px) {
  article#main-col{
@@ -336,6 +380,18 @@ footer {
     
      display: list-item;
  }
+ 
+ .col col col-lg-3{
+     margin-left: 55px;
+ }
+ 
+.video_title_category{
+  text-align: center;
+ }
+ 
+ 
+
+
  
  
 
@@ -361,7 +417,6 @@ footer {
         width: 100%;
 
     }
-    
     
     }
     header {
@@ -403,12 +458,12 @@ ul#service li {
 }
 
 .bordered h3 {
-    color: yellow;
-    text-align: center;
+    color: #00cc44;
+    text-align: right;
 }
 
 .bordered p {
-    color: yellow;
+    color: #4d2600;
 }
     
 .bordered audio {
@@ -566,13 +621,12 @@ figure.slider {
     position: relative;
     width: 500%;
     font-size: 0;
-    /*animation: 15s 6s slidy infinite;*/
+    /*animation: 45s 6s slidy infinite;*/
     animation-name: slidy;
-    animation-duration: 15s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-direction: normal;
     animation-timing-function: linear;
-    animation-fill-mode: ;
 }
 
 figure.slider figure {
@@ -646,7 +700,7 @@ div#captioned-gallery {
 .contact1{
     color:red;
     position:relative;
-    background:url("/assets/images/moe phone.png") center fixed no-repeat;
+    background:url("/assets/images/moeold.jpg") center no-repeat;
    background-size:cover;
    
 }
