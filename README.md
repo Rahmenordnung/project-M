@@ -6,21 +6,65 @@
  tudorpascu787@gmail.com
  
  
- [create an anchor](# Testing )
+ [create an anchor](## Testing )
  
 
 
 
 ## Name
-The project was named in this way because of the musicality that the Simpsons have been introduced in their  
+The project was named (**The Simpsons Band**) in this way because of the musicality that the Simpsons have been introduced in their  
 cartoons, since for already 30 years. That will be one reason, and also because the music is making people understand better charters fellings and the message that their want to send. It's purpose is to make a small plot of the serie,  
 small history and the last news that  envolve Simpsons planet
 
 
-##  User experience   
-Mochups:
+##  User experience
 
-![GitHub Logo](assets/image-balsamiq/indexbalsamiq.jpg)
+Primary target audiences of the serial are their fans and potential fans who wish to use the site to see or hear, to have a first contact with the mithic cartoon and see some basic images from their back catalog, and of course be in contact with the newest episodes. Also, the Simpsons would like to use the site as place where to confirm their continuity already impresive, and demonstrate that this humor will continue for a long time in the future. This type of comedy is proven through music and concerts in any city or house around the world.
+
+#### Users Stories:
+
+* As a longtime fan of the serie, I want to listen to some of their songs, to bring back good memories or continue laughing.
+
+* As a person who know their most popular episodes, I want to check their database, to rediscover some of their best features.
+
+* As a person that never have been in touch with the cartoon, to get to know what the Simpsons family can offer them
+
+* Or as a well-known fan continue their support by listenning to a selection of their more emblematic songs, or clips. And get to read the latest news about them.
+
+* As a true fan, get in contact with them , personally and get in contact with them
+
+
+
+
+
+#### Mochups (Wireframes):
+
+
+* Index.html---balsamiq
+
+![GitHubLogo](assets/image-balsamiq/indexbalsamiq.jpg)
+
+
+* Library.html---balsamiq
+
+![GitHubLogo](assets/image-balsamiq/library_balsamiq.jpg)
+
+* Concerts and gigs.html---balsamiq
+
+
+![GitHubLogo](/assets/image-balsamiq/concerts_and_gigbalsamiq.jpg)
+
+* Itchy.html---balsamiq
+
+
+![GitHubLogo](assets/image-balsamiq/itchybalsamiq.jpg)
+
+* Contact.html---balsamiq
+
+
+![GitHubLogo](assets/image-balsamiq/contactbalsamiq.jpg)
+
+* Images project
 
 ![](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/acordeon%20view.jpg) acordeon  
 ![](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/basic%20idea.jpg) basic idea  
@@ -108,21 +152,24 @@ Try to submit the empty form and verify that an error message about the required
 Try to submit the form with an invalid email address and verify that a relevant error message appears  
 Try to submit the form with all inputs valid and verify that a success message appears.  
 
-## Deployment???
+## Dugging
+
+   I had a lot to learn with the accordeon and the slider, because in the case of the accordeon I had to learn to make it work without java, or other help.
+   And for the slider I really had headakes trying to solve the frame timing problem, and the image sqaring.
+   
+   Thanks for all the help recieved , metors, tutors, chat, etc
 
 
 
 
-## Credits  
-
-## Content##
+## Conten
 The text for section aside of the Concerts and Gigs was copied from the Wikipedia in the first box of the acordeon, and "The Guardian" article in the 3rd box of the same section.  
 In the second section I used the text from Youtube´s page from Tryworld channel.    
 ## Media ##
 The photos used in this site were obtained from Google, I haven´t been getting them from a registered page, but from an open source like Google images.  
-## Acknowledgements## 
+## Acknowledgements 
 I received inspiration for this project from my mentor that introduced me the idea of trying something that counted for me, and not only follw the example offered in the milestone text example.  
 I tryed to be at the same time as original as possible. Create texts and images produced by so many years of looking this cartoons and crate a page  inspired by the fun and pleasure that I feal when I watch them.  
 
-## Thank you very much, for all the help recived from staff, mentors, chat, etc,!!!!## 
+## Thank you very much, for all the help recived from staff, mentors, chat, etc!!!! 
 
