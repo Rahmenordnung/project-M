@@ -66,13 +66,7 @@ Primary target audiences of the serial are their fans and potential fans who wis
 
 * Images project
 
-![](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/acordeon%20view.jpg) acordeon  
-![](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/basic%20idea.jpg) basic idea  
-![](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/final%20proyect.jpg) final proyect  
 
-![](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/media%20queries.jpg)media queries  
-![](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/other%20ideas.jpg)other ideas
-![](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/view%20from%20all%20pages.jpg) proyect view
 
 
 
