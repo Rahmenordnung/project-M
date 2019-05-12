@@ -6,7 +6,8 @@
  tudorpascu787@gmail.com
  
  
- [create an anchor](## Testing )
+[Testing menu](#Testing)
+
  
 
 
@@ -17,7 +18,7 @@ cartoons, since for already 30 years. That will be one reason, and also because 
 small history and the last news that  envolve Simpsons planet
 
 
-##  User experience
+## User experience
 
 Primary target audiences of the serial are their fans and potential fans who wish to use the site to see or hear, to have a first contact with the mithic cartoon and see some basic images from their back catalog, and of course be in contact with the newest episodes. Also, the Simpsons would like to use the site as place where to confirm their continuity already impresive, and demonstrate that this humor will continue for a long time in the future. This type of comedy is proven through music and concerts in any city or house around the world.
 
@@ -128,7 +129,8 @@ The commun element of each page along the site is a menu under the <nav> selecto
 2. "Jquery" used to    
 3.  "Font awesome" used to allow the footer icon to work properly  
 
-# Testing 
+
+## <a name="Testing"></a> Testing 
 
 During the producing time I tested all the link from the navbar, that they take to the desired page and back again.  
 That the slider runs correctly, showing the desired pictured, creating  the correct envoirment.  
@@ -146,7 +148,7 @@ Try to submit the empty form and verify that an error message about the required
 Try to submit the form with an invalid email address and verify that a relevant error message appears  
 Try to submit the form with all inputs valid and verify that a success message appears.  
 
-## Dugging
+## Debugging
 
    I had a lot to learn with the accordeon and the slider, because in the case of the accordeon I had to learn to make it work without java, or other help.
    And for the slider I really had headakes trying to solve the frame timing problem, and the image sqaring.
@@ -156,7 +158,7 @@ Try to submit the form with all inputs valid and verify that a success message a
 
 
 
-## Conten
+## Content
 The text for section aside of the Concerts and Gigs was copied from the Wikipedia in the first box of the acordeon, and "The Guardian" article in the 3rd box of the same section.  
 In the second section I used the text from Youtube´s page from Tryworld channel.    
 ## Media ##
