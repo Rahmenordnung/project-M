@@ -171,6 +171,8 @@ Try to submit the form with all inputs valid and verify that a success message a
 
 ## <a name="Debugging"></a>Debugging
 
+  The app was tested on Samsung S8, Apple iPhone 6, etc,(all the deviced served in the Chrome developer tools) and also using the Google Chrome inspect feature to test for repsonsiveness and any errors that occurred. There were many issues founded most of them with the css sidevar/ navbar not resizing, card etc. Also this tool is usefull ,using their console, in founding java errors
+
    I had a lot to learn with the accordeon and the slider, because in the case of the accordeon I had to learn to make it work without java, or other help.
    And for the slider I really had headakes trying to solve the frame timing problem, and the image sqaring.
    
