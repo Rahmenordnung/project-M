@@ -686,7 +686,7 @@ div#captioned-gallery {
 .contact1{
     color:red;
     position:relative;
-    background:url("/assets/images/moeold.jpg") center no-repeat;
+    background:url("assets/images/moeold.jpg") center no-repeat;
    background-size:cover;
    
 }
