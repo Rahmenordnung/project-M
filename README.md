@@ -25,6 +25,8 @@
 * [Media](#Media)
 * [Acknowledgements](#Acknowledgements) 
  
+### links
+A link can be found [here](https://rahmenordnung.github.io/project-M/index.html)
 
 
 
@@ -62,11 +64,8 @@ At the Contact page one can send The Simpsons an email or visit a link to one of
 #### <a name="Wireframes(images)"></a>Wireframes(images):
 
 
+*   [Wireframe pdf](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/simpsons%20band%20balsamiq%20images.pdf)
 
-![GitHubLogo](assets/image-balsamiq/contactbalsamiq.jpg)
-
-
-*  <img src="assets/images mokup/simpsons band balsamiq images.pdf"></img>PDF with Mockup images
 
 
 
@@ -128,7 +127,7 @@ The commun element of each page along the site is a menu under the <nav> selecto
 2. "Jquery"  is the most widely used JavaScript library use to aply javafunctions to html code.   
 3. "Font awesome" used to allow the footer icon to work properly 
 4. The "Itch and Scratchy gazette" is built up uppon a "Code pen" newspaper template, and I updated the template to my needs and used some of their css, of course connecting it with my own css.
-5. Also the Slider and the Dropdown are adapted from different pages such as [https://developer.mozilla.org/en-US/], [https://www.w3schools.com/], [https://codepen.io/]
+5. Also the Slider and the Dropdown are adapted from different pages such as https://developer.mozilla.org/en-US/, https://www.w3schools.com/, https://codepen.io/
  
 
 
@@ -166,7 +165,9 @@ The text for section aside of the Concerts and Gigs was copied from the Wikipedi
 In the second section I used the text from Youtube´s page from Tryworld channel.
 ## <a name="Media"></a>Media ##
 The photos used in this site were obtained from Google, I haven´t been getting them from a registered page, but from an open source like Google images. 
-I have gathered a file with all the pages where each page is comming from, this is the lin </assets/image roots/image roots and webpages.md>
+I have gathered a file with all the pages where each page is comming from, this is the link </assets/image roots/image roots and webpages.md>
+
+ [link](https://github.com/Rahmenordnung/project-M/blob/master/assets/image%20roots/image%20roots%20and%20webpages.md)
 ## <a name="Acknowledgements"></a>Acknowledgements 
 I received inspiration for this project from my mentor that introduced me the idea of trying something that counted for me, and not only follw the example offered in the milestone text example.  
 I tryed to be at the same time as original as possible. Create texts and images produced by so many years of looking this cartoons and crate a page  inspired by the fun and pleasure that I feal when I watch them.  

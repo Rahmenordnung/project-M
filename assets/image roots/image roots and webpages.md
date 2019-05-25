@@ -14,7 +14,7 @@ This file is used to store the url of the pages from where I took the images
 
 * https://www.pinterest.ie/search/pins/?q=marge%20simpsons&rs=typed------flying Marge.jpg
 
-* https://www.pinterest.ie/pin/437552920031699846/ ----homer-clones.jpg
+* https://www.pinterest.ie/pin/446067538067348071/ ----homer_couch.jpg
 
 * https://www.pinterest.ie/pin/148970700144307999/----images.jpg
 
@@ -35,11 +35,12 @@ This file is used to store the url of the pages from where I took the images
 
 * https://knowyourmeme.com/memes/old-man-yells-at-cloud---simpsons-memes-old-man-yells-at-cloud.jpg
 
-* https://nardio.net/2012/09/05/simpsons-tapped-out-review/simpsons-tapped-out-bart/-------Simpsons-Tapped-Out-bart-e1346897307762.png
+* https://kiteforum.com/viewtopic.php?t=2367510-------bart_kiting_ss-vi.jpg
 
 * http://time.com/4207828/simpsons-search-engine/----thesimpsonshappy.jpg
 
 * https://www.vector-eps.com/transparent-cards-and-envelopes/-----transparent-envelope-template5.jpg
 
 * https://www.paperplace.com.au/products/matte-yellow-c5-envelope-----yellow-c5-banker_grande.jpg
-* 
+
+* http://entertainment.time.com/2013/08/27/rejoice-simpsons-fans-you-can-go-to-springfield/-------welcome_to_sprienfield.jpg
