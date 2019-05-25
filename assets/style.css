@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Gaegu|Gloria+Hallelujah|Rock+Salt');
 
-font-family: 'Gloria Hallelujah', cursive;
-font-family: 'Rock Salt', cursive;
-font-family: 'Gaegu', cursive;
+
 
 #body {
     font-family: Akbar, sans-serif;
@@ -12,37 +10,7 @@ font-family: 'Gaegu', cursive;
     background-color: #e6ffff;
 }
 
-/*-----animation-------*/
-
-.main {
-    animation: bgcolor infinite 20s;
-}
-
-@keyframes bgcolor {
-    0% {
-        background: #cccc00;
-    }
-    20% {
-        background: #ffff00;
-    }
-    40% {
-        background: #e6e600;
-    }
-    60% {
-        background: #999900;
-    }
-    80% {
-        background: #ffff33;
-    }
-    100% {
-        background: #ffff66;
-    }
-}
-
-
-
-
-/*Genial*/
+/*Genial (general settings)*/
 
 .container {
     width: 80%;
@@ -113,11 +81,32 @@ ul {
 .button_1:hover:before {
     width: 100%;
 }
+/*round image itchy and scratchy*/
+.new{
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  left:55%;
+  background:url("/assets/images/itchy100_100.jpg");
+  background-size: content;
+  background-position: center;
+  background-repeat: no-reapeat;
+}
+.new {
+   
+    transition: transform .2s; /* Animation */
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.new:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 /*Title*/
-
-
-
 
 /*header*/
 
@@ -170,420 +159,7 @@ header a:hover {
     font-weight: bolder;
 }
 
-/*Showcase*/
-
-#showcase {
-    min-height: 700px;
-    background: url("/assets/images/background.jpg") no-repeat -0 0;
-    text-align: center;
-    color: #ffb399;
-
-
-
-}
-
-#showcase h1 {
-    margin-top: 100px;
-    font-size: 55px;
-    margin-bottom: 10px;
-
-}
-
-#showcase p {
-    font-size: 14px;
-}
-
-/*newsletter*/
-
-#newsletter {
-    padding: 15px;
-    color: #000;
-    background: #eccc68;
-    border-bottom: 3px #eb2f06 solid;
-
-}
-
-#newsletter h1 {
-    float: left;
-}
-
-#newsletter form {
-    float: right;
-    margin-top: 15px;
-}
-
-#newsletter input[type="email"] {
-    padding: 4px;
-    height: 45px;
-    width: 150px;
-}
-.new{
-  height: 40px;
-  width: 40px;
-  background-color: blue;
-  border-radius: 50%;
-  position: absolute;
-  left:55%;
-  background:url("/assets/images/itchy100_100.jpg");
-  background-size: content;
-  background-position: center;
-  background-repeat: no-reapeat;
-}
-.new {
-   
-    transition: transform .2s; /* Animation */
-    width: 120px;
-    height: 120px;
-    margin: 0 auto;
-}
-
-.new:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-
-
-/*Flex couch for images*/
-
-.couch {
-    background-color: yellow;
-    width: 100%;
-    display: flex;
-    flex-direction: center;
-
-}
-
-/*
-.item{
-    background-color:violet;
-    width:300px;
-    height:100px;
-    margin:20px;
-}*/
-
-/*boxes*/
-
-#boxes {
-    margin-top: 0px;
-    background-color:#CD7213;
-    color:#4d4d33;
-}
-
-#boxes .box {
-    float: left;
-    text-align: center;
-    width: 30%;
-    padding: 10px;
-}
-
-#boxes .box img {
-    width: 90px;
-}
-
-/*Sidebar*/
-
-aside#sidebar {
-    float: right;
-    width: 30%;
-    margin-top: 10px;
-}
-.button_2{
-    height: 15px;
-    margin-top: 10px;
-    border:2px solid red;
-}
-
-/*Main-col*/
-
-article#main-col {
-    float: left;
-    width: 65%;
-
-
-}
-
-aside#sidebar .quote input,
-aside#sidebar .quote textarea {}
-
-aside#sidebar .quote textarea
-/*Services*/
-
-ul#service li {
-    list-style: none;
-    padding: 20px;
-    border:  #994d00 solid 2px;
-    margin-bottom: 5px;
-    background: #d9f2e6;
-
-
-
-}
-
-
-/* personages video */
-
-.personage{
-    color:#3300ff;
-}
-.personage2{
-    color:#ff3300;
-}.personage3{
-    color:gray;
-}
-.personage4{
-    color:#00ccff;
-}
-.personage5{
-    color: #ff00cc;
-}
-.personage6{
-    color:#4cff00;
-}
-
-/* audio styling */
-
-
-
-footer {
-    padding: 20px;
-    
-    color: #000;
-    background-color: #DDBC95;
-    text-align: center;
-    width: 100%
-}
-
-/*media*/
-
-@media (min-width: 766px) { 
-    iframe{
-        width:100%;
-    }
-    
-}
-
-@media (max-width: 766px) {
- article#main-col{
-        width:100%;
-        padding: 0px 0px; 
-        
-    }
- aside#sidebar{
-     width:100%;
-     padding: 0px 0px;
-     
- }
-
- }
- .containerV ul li{
-     width: 45%;
-    
-     display: list-item;
- }
- 
- .col col col-lg-3{
-     margin-left: 55px;
- }
- 
-.video_title_category{
-  text-align: center;
- }
- 
- 
-
-
- 
- 
-
- 
-    
-
-
-
-@media(max-width: 767px) {
-    .couch,
-    header #bart,
-    header nav,
-    header nav li,
-    #newsletter h1,
-    #newsletter form,
-    #boxes .box,
-    .article#main-col,
-    .aside#sidebar,.wrapper,
-    .container{
-
-        float: none;
-        text-align: center;
-        width: 100%;
-
-    }
-    
-    }
-    header {
-        padding-bottom: 20px;
-    }
-    #showcase h1 {
-        margin-top: 40px;
-    }
-    #newsletter button {
-        display: inline-block;
-        width: 100%;
-    }
-    #newsletter form input[type="email"],
-    .quote input,
-    .quote textarea {
-        width: 100%;
-        margin-bottom: 5px;
-    }
-      
-
-
-
-/*----Services----*/
-/*
-ul#service li {
-    list-style: none;
-    padding: 20px;
-    border: #cccccc solid 2px;
-    margin-bottom: 5px;
-    background: #d9f2e6;
-}
-*/
-.bordered {
-    border: #ff0000 solid 2px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 15%;
-}
-
-.bordered h3 {
-    color: #00cc44;
-    text-align: right;
-}
-
-.bordered p {
-    color: #4d2600;
-}
-    
-.bordered audio {
-    width: 45%;
-}
-
-.bordered audio .long {
-    width: 95%;
-}
-
-.social-icons {
-    margin-right: 1300px;
-    vertical-align: bottom;
-}
-
-.pull-right {
-    position: relative;
-    right: 75px;
-    bottom: 28px;
-
-
-}
-
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-}
-
-
-footer {
-    padding: 20px;
-    
-    color: #133926;
-    background-color: #ac7339;
-    text-align: center;
-    width: 100%;
-
-}
-
-/*----Videos library----*/
-
-.containerV {
-    width: 97.5%;
-    background: #fbc531;
-    overflow: hidden;
-    margin: 20px auto;
-    
-    
-}
-
-.containerV ul {
-    padding: 0px;
-    margin: 0px;
-}
-
-.containerV ul li {
-    list-style: none;
-    float: left;
-    width: 30.5%;
-    height: 250px;
-    background: #f7d794;
-    margin: 10px 10px 10px 10px;
-    border-bottom: 1px ridge #fbc531;
-    border-right: 1px solid #fbc531;
-    margin-bottom:10px;
-
-}
-
-.containerV ul li:hover {
-    opacity: 0.9;
-}
-
-.containerV ul li .title:hover {
-    background: orange;
-    color: white;
-}
-
-
-.containerV ul li .title {
-    width: 100%;
-    height: 40px;
-    line-height: 50px;
-    background: yellow;
-    text-align: center;
-
-}
-
-/*------Audio-----*/
-
-.audio {
-    font-size: 3vh;
-    padding: left;
-    display: inline;
-}
+/*Index.html-----*/
 
 /*---Slider----*/
 
@@ -654,6 +230,420 @@ figure.slider figure figcaption {
 * {
     box-sizing: border-box;
 }
+#boxes {
+    margin-top: 0px;
+    background-color:#CD7213;
+    color:#4d4d33;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+
+
+
+
+/*Library*/
+
+
+/*-----animation-------(both LIbrary and Concerts)*/
+
+.main {
+    animation: bgcolor infinite 20s;
+}
+
+@keyframes bgcolor {
+    0% {
+        background: #cccc00;
+    }
+    20% {
+        background: #ffff00;
+    }
+    40% {
+        background: #e6e600;
+    }
+    60% {
+        background: #999900;
+    }
+    80% {
+        background: #ffff33;
+    }
+    100% {
+        background: #ffff66;
+    }
+}
+
+.video_title_category{
+    
+    padding:18px 0 37px 0;
+}
+
+.wrapper_video{
+    margin: 15px 0 25px 0;
+}
+iframe{
+    height: 190px
+}
+
+/*newsletter------aside for library and Concerts*/
+
+#newsletter {
+    padding: 15px;
+    color: #000;
+    background: #eccc68;
+    border-bottom: 3px #eb2f06 solid;
+
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 45px;
+    width: 150px;
+}
+
+/*---acordeon---*/
+body {
+  color: #000;
+  background: yellow;
+}
+h1 {
+  text-align: center;
+}
+.half {
+  float: left;
+  width: 100%;
+ 
+}
+/* Acordeon styles */
+.tab {
+  position: relative;
+  margin-bottom: 10px;
+  width: 100%;
+  color: #000;
+  overflow: hidden;
+}
+.tab input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.tab label {
+  position: relative;
+  display: block;
+  padding: 0 0 0 1vh;
+  background: #E4B600;
+  font-weight: 200;
+  line-height: 3;
+  cursor: help;
+}
+.blue label {
+  background: #2980b9;
+}
+.tab-content {
+  max-height: 0;
+  overflow: hidden;
+  background: #EE5A24;
+  transition: max-height .75s;
+}
+.blue .tab-content {
+  background: #3498db;
+}
+.tab-content p {
+  margin: 1vh;
+  padding: 5px;
+}
+/* :checked */
+.tab input:checked ~ .tab-content {
+  max-height: 100vh;
+}
+/* Icon */
+.tab label::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 3em;
+  height: 3em;
+  line-height: 3;
+  text-align: center;
+  
+  transition: all .35s;
+}
+.tab input[type=checkbox] + label::after {
+  content: "+";
+}
+.tab input[type=radio] + label::after {
+  content: "\25BC";
+}
+.tab input[type=checkbox]:checked + label::after {
+  transform: rotate(315deg);
+}
+.tab input[type=radio]:checked + label::after {
+  transform: rotateX(180deg);
+}
+
+
+
+/*Sidebar*/
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+.button_2{
+    height: 15px;
+    margin-top: 10px;
+    border:2px solid red;
+}
+
+/*Main-col*/
+
+article#main-col {
+    float: left;
+    width: 65%;
+
+
+}
+
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+    font-family:'Gloria Hallelujah';
+    
+}
+.petition_input{
+    margin-bottom: 5px;
+}
+.quote textarea {
+        width: 100%;
+        height: 90px;
+        margin-bottom: 5px;
+    }
+
+aside#sidebar .quote textarea
+
+/*Services---list for images in Concerts.html*/
+
+ul#service li {
+    list-style: none;
+    padding: 20px;
+    border:  #994d00 solid 2px;
+    margin-bottom: 5px;
+    background: #d9f2e6;
+}
+
+.bordered {
+    border: #ff0000 solid 2px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    margin:10px 15px 10px 15px;
+    padding: 10px 10px;
+    list-style: none;
+    
+}
+
+.bordered h3 {
+    color: white;
+    text-align: left;
+    margin: 0px;
+}
+
+.bordered p {
+    color: #130BC7;
+}
+    
+.bordered audio {
+    width: 45%;
+    display: block;
+}
+
+.bordered audio .long {
+    width: 95%;
+}
+
+
+
+
+/* - Library grid----personages video */
+
+.personage{
+    color:#3300ff;
+}
+.personage2{
+    color:#ff3300;
+}.personage3{
+    color:gray;
+}
+.personage4{
+    color:#00ccff;
+}
+.personage5{
+    color: #ff00cc;
+}
+.personage6{
+    color:#4cff00;
+}
+
+
+
+/*------- footer ------------*/
+
+footer {
+   
+    padding: 20px;
+    color: #000;
+    background-color: #DDBC95;
+    text-align: center;
+    width: 100%
+}
+.fa{
+    
+}
+.social-icons {
+    margin-right: 1300px;
+    vertical-align: bottom;
+}
+
+.pull-right {
+    position: relative;
+    right: 75px;
+    bottom: 28px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    width: 51px;
+    height: 51px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+
+/*--------------media----------------*/
+
+@media (min-width: 766px) { 
+    iframe{
+        width:100%;
+        
+    }
+}
+@media (max-width: 766px) {
+ article#main-col{
+        width:100%;
+        padding: 0px 0px; 
+    }
+ aside#sidebar{
+     width:95%;
+     padding: 5px 5px;
+     margin: 0 10px;
+    }
+ }
+ .containerV ul li{
+     width: 45%;
+     display: list-item;
+ }
+ .col col col-lg-3{
+     margin-left: 55px;
+ }
+.video_title_category{
+  text-align: center;
+ }
+@media(max-width: 767px) {
+    .couch,
+    header #bart,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    .article#main-col,
+    .aside#sidebar,.wrapper,
+    .container{
+
+        float: none;
+        text-align: center;
+        width: 100%;
+}
+    
+    }
+    header {
+        padding-bottom: 20px;
+    }
+    #showcase h1 {
+        margin-top: 40px;
+    }
+    #newsletter button {
+        display: inline-block;
+        width: 100%;
+        
+    }
+    #newsletter form input[type="email"],
+    .quote input {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 5px;
+    }
+     .message_petition{
+        width: 100%;
+        height: 90px;
+        margin-bottom: 5px;
+    }
+    .request{
+        text-align: center
+        
+    }
+@media only screen and (max-width: 1200px) {
+    .new {
+        display: none;
+    }
+}    
+
+/*----Videos library----*/
+
+
+/*------Audio-----*/
 
 body,
 figure {
@@ -679,15 +669,11 @@ div#captioned-gallery {
 }
 
 .page-title {
-    background: url("/assets/images/images.jpg");
     text-align: center;
     font-style: oblique;
     height: 55px;
-    margin: 0px;
-    border: 3px #b38600 solid;
-    border-radius: 350px;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 18px;
+    margin-bottom: 26px;
 }
 
 /*----Contact----*/
@@ -766,106 +752,7 @@ div#captioned-gallery {
     color:#ea0000;
     
 }
-
 .btn{
-    font-size: 15px;
-    cursor:pointer;
-    font-weight: 400;
-    margin-top: 10px;
-    padding: 5px 15px;
-    border:1px #e84118 solid;
-    background: #e84118;
-    border-radius: 12%;
-}
-.btn:hover{
-    background:#c23616;
-    color:gray;
+    margin-top: 10px
 }
 
-
-
-/*---acordeon---*/
-body {
-  color: #000;
-  background: yellow;
-}
-h1 {
-  text-align: center;
-}
-.half {
-  float: left;
-  width: 100%;
- 
-}
-/* Acordeon styles */
-.tab {
-  position: relative;
-  margin-bottom: 1px;
-  width: 100%;
-  color: #000;
-  overflow: hidden;
-}
-.tab input {
-  position: absolute;
-  opacity: 0;
-  z-index: -1;
-}
-.tab label {
-  position: relative;
-  display: block;
-  padding: 0 0 0 1vh;
-  background: #E4B600;
-  font-weight: 200;
-  line-height: 3;
-  cursor: help;
-}
-.blue label {
-  background: #2980b9;
-}
-.tab-content {
-  max-height: 0;
-  overflow: hidden;
-  background: #EE5A24;
-  transition: max-height .75s;
-}
-.blue .tab-content {
-  background: #3498db;
-}
-.tab-content p {
-  margin: 1vh;
-}
-/* :checked */
-.tab input:checked ~ .tab-content {
-  max-height: 100vh;
-}
-/* Icon */
-.tab label::after {
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: block;
-  width: 3em;
-  height: 3em;
-  line-height: 3;
-  text-align: center;
-  
-  transition: all .35s;
-}
-.tab input[type=checkbox] + label::after {
-  content: "+";
-}
-.tab input[type=radio] + label::after {
-  content: "\25BC";
-}
-.tab input[type=checkbox]:checked + label::after {
-  transform: rotate(315deg);
-}
-.tab input[type=radio]:checked + label::after {
-  transform: rotateX(180deg);
-}
-
-@media only screen and (max-width: 1200px) {
-    .new {
-        display: none;
-    }
-}

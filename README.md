@@ -62,33 +62,11 @@ At the Contact page one can send The Simpsons an email or visit a link to one of
 #### <a name="Wireframes(images)"></a>Wireframes(images):
 
 
-* Index.html---balsamiq
- 
-
-![GitHubLogo](assets/image-balsamiq/indexbalsamiq.jpg)
-
-
-* Library.html---balsamiq
-
-![GitHubLogo](assets/image-balsamiq/library_balsamiq.jpg)
-
-* Concerts and gigs.html---balsamiq
-
-
-![GitHubLogo](/assets/image-balsamiq/concerts_and_gigbalsamiq.jpg)
-
-* Itchy.html---balsamiq
-
-
-![GitHubLogo](assets/image-balsamiq/itchybalsamiq.jpg)
-
-* Contact.html---balsamiq
-
 
 ![GitHubLogo](assets/image-balsamiq/contactbalsamiq.jpg)
 
 
-*  <img src="assets/image-balsamiq/contactbalsamiq.jpg"></img>Images project
+*  <img src="assets/images mokup/simpsons band balsamiq images.pdf"></img>PDF with Mockup images
 
 
 
@@ -147,8 +125,12 @@ The commun element of each page along the site is a menu under the <nav> selecto
 ## <a name="Technologies_Used"></a>Technologies Used 
 
 1. "Bootsrap" used to allow the buttons work properly   
-2. "Jquery" used to    
-3. "Font awesome" used to allow the footer icon to work properly  
+2. "Jquery"  is the most widely used JavaScript library use to aply javafunctions to html code.   
+3. "Font awesome" used to allow the footer icon to work properly 
+4. The "Itch and Scratchy gazette" is built up uppon a "Code pen" newspaper template, and I updated the template to my needs and used some of their css, of course connecting it with my own css.
+5. Also the Slider and the Dropdown are adapted from different pages such as [https://developer.mozilla.org/en-US/], [https://www.w3schools.com/], [https://codepen.io/]
+ 
+
 
 
 ## <a name="Testing"></a> Testing 
@@ -179,11 +161,12 @@ Try to submit the form with all inputs valid and verify that a success message a
    Thanks for all the help recieved , metors, tutors, chat, etc
 
 
-## <a name="Content"></a>Content
+## <a name="Content"></a>Content and 
 The text for section aside of the Concerts and Gigs was copied from the Wikipedia in the first box of the acordeon, and "The Guardian" article in the 3rd box of the same section.  
-In the second section I used the text from Youtube´s page from Tryworld channel.    
+In the second section I used the text from Youtube´s page from Tryworld channel.
 ## <a name="Media"></a>Media ##
-The photos used in this site were obtained from Google, I haven´t been getting them from a registered page, but from an open source like Google images.  
+The photos used in this site were obtained from Google, I haven´t been getting them from a registered page, but from an open source like Google images. 
+I have gathered a file with all the pages where each page is comming from, this is the lin </assets/image roots/image roots and webpages.md>
 ## <a name="Acknowledgements"></a>Acknowledgements 
 I received inspiration for this project from my mentor that introduced me the idea of trying something that counted for me, and not only follw the example offered in the milestone text example.  
 I tryed to be at the same time as original as possible. Create texts and images produced by so many years of looking this cartoons and crate a page  inspired by the fun and pleasure that I feal when I watch them.  
