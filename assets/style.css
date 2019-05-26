@@ -84,14 +84,14 @@ ul {
 /*round image itchy and scratchy*/
 .img {
   border-radius: 75%;
-  display: flex;
+  
   flex: 0 0 150px;
   justify-content: center;
   overflow: hidden;
   left:50%;
   height: 45px;
   width: 45px;
-  position: relative;
+  position: absolute;
   margin-bottom: 15px;
 }
 
