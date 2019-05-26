@@ -83,7 +83,7 @@ ul {
 }
 /*round image itchy and scratchy*/
 .img {
-  border-radius: 100%;
+  border-radius: 75%;
   display: flex;
   flex: 0 0 150px;
   justify-content: center;
@@ -91,10 +91,8 @@ ul {
   left:50%;
   height: 45px;
   width: 45px;
-  position: absolute;
+  position: relative;
   margin-bottom: 15px;
-  
-  
 }
 
 .img {
