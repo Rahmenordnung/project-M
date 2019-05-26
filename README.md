@@ -6,7 +6,7 @@
 
  tudorpascu787@gmail.com
  
- ![alt text](https://github.com/jtuck15/milestone-project-1/blob/master/images/RollingStonesWebsite.PNG
+ ![alt text](https://github.com/Rahmenordnung/project-M/blob/master/assets/images/extract_page.png)
  
 ## Sumary
 
