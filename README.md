@@ -6,6 +6,8 @@
 
  tudorpascu787@gmail.com
  
+ ![alt text](https://github.com/jtuck15/milestone-project-1/blob/master/images/RollingStonesWebsite.PNG
+ 
 ## Sumary
 
 * [Name](#Name)
