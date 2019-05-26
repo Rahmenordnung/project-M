@@ -702,8 +702,8 @@ div#captioned-gallery {
 .contacts{
     color:#99ff33;
     
-    background-image:url("assets/images/moe_phone.jpg");
-    background-size:cover;
+    background-image: url(assets/images/moe_phone.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
