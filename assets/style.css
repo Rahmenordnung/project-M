@@ -82,19 +82,22 @@ ul {
     width: 100%;
 }
 /*round image itchy and scratchy*/
-.new{
-  height: 40px;
-  width: 40px;
-  background-color: blue;
-  border-radius: 50%;
+.img {
+  border-radius: 100%;
+  display: flex;
+  flex: 0 0 150px;
+  justify-content: center;
+  overflow: hidden;
+  left:50%;
+  height: 45px;
+  width: 45px;
   position: absolute;
-  left:55%;
-  background:url("/assets/images/itchy100_100.jpg");
-  background-size: content;
-  background-position: center;
-  background-repeat: no-reapeat;
+  margin-bottom: 15px;
+  
+  
 }
-.new {
+
+.img {
    
     transition: transform .2s; /* Animation */
     width: 120px;
@@ -102,8 +105,8 @@ ul {
     margin: 0 auto;
 }
 
-.new:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.img:hover {
+    transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 /*Title*/
@@ -293,7 +296,7 @@ iframe{
     height: 190px
 }
 
-/*newsletter------aside for library and Concerts*/
+/*newsletter------aside for library and Concerts and Index*/
 
 #newsletter {
     padding: 15px;
@@ -460,6 +463,9 @@ ul#service li {
     list-style: none;
     
 }
+.Simpsons_square{
+    background: url('assets/images/welcome_to_sprienfield.jpg');
+}
 
 .bordered h3 {
     color: white;
@@ -590,6 +596,9 @@ footer {
 .video_title_category{
   text-align: center;
  }
+ .img{
+    display: none;
+}
 @media(max-width: 767px) {
     .couch,
     header #bart,
@@ -605,6 +614,9 @@ footer {
         float: none;
         text-align: center;
         width: 100%;
+}
+.img{
+    display: none;
 }
     
     }
@@ -634,11 +646,17 @@ footer {
         text-align: center
         
     }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
     .new {
         display: none;
     }
-}    
+} 
+
+@media only screen and (min-width: 1200px) {
+    .img {
+        display: inherit;
+    }
+} 
 
 /*----Videos library----*/
 
@@ -683,30 +701,29 @@ div#captioned-gallery {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.contact1{
-    color:red;
-    position:relative;
-    background:url("assets/images/moeold.jpg") center no-repeat;
-   background-size:cover;
-   
+.contacts{
+    color:#99ff33;
+    
+    background-image:url("assets/images/moe_phone.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .list-unstyled{
     color:red;
 }
-.fox-page{color:red;}
-
-
+.text_title{
+    
+}
 .ctitle h2{
-    font-size: 34px;
+    font-size: 54px;
     position: relative;
     margin-bottom: 15px;
     padding-bottom: 20px;
     text-transform: uppercase;
-    
-    
 }
 .ctitle p{
-    font-size: 17px;
+    font-size: 37px;
     font-weight: 300;
 }
 
@@ -719,25 +736,13 @@ div#captioned-gallery {
 .input li{
     margin:15px 0px;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 25px;
     
 }
 
 .input li a{
-    color:#000;
-}
-.input form label{
-    font-weight: 200; 
-    font-size: 25px;
-}
-.input form legend{
-    color: #000;
-    font-size: 50px;
-}
-    .text{
     color:red;
 }
-
 
 .input form .form-control{
     color:#000;

@@ -1,7 +1,8 @@
 # The Simpsons band 
 
  Tudor George Pascu  /student at Code Institute in Dublin, Ireland, 2018
-
+ 
+ A link on Github working proyect can be found [here](https://rahmenordnung.github.io/project-M/index.html)
 
  tudorpascu787@gmail.com
  
@@ -25,13 +26,8 @@
 * [Media](#Media)
 * [Acknowledgements](#Acknowledgements) 
  
-### links
-A link can be found [here](https://rahmenordnung.github.io/project-M/index.html)
 
 
-
-
- 
 ## <a name="Name"></a>Name
 The project was named (**The Simpsons Band**) in this way because of the musicality that the Simpsons have been introduced in their  cartoons, since for already 30 years. That will be one reason, and also because the music is making people understand better charters fellings and the message that their want to send. It's purpose is to make a small plot of the serie,  small history and the last news that  envolve Simpsons planet
 
@@ -85,10 +81,10 @@ The site has 4 different pages that can be accesed from the main page, which is
 - CONTACT contains a form that can be used to talk to any of the personages or authors.
 
 
-The commun element of each page along the site is a menu under the <nav> selector that contain 4 anchors  in a unrodered list. They conform the menu of the site. The selectted elemente of the menu it will change color when clicked    
+The commun element of each page along the site is a menu under the <nav> selector that contain 4 anchors in a unrodered list. They conform the menu of the site. The selected element of the menu it will change color when clicked    
 #### <a name="index.html"></a>index.html ####
    * Contains the start page... that after the menu , has an automatic image slider of The Simpsons made with help of Css settings ,media queries and @keyframes.  
-   * Below, there is the Itchy and Strachy gazette link composed from a header(as an anchor tag) and a form to suscribe to the gazette and a new button wit a bottom line.  
+   * Below, there is the Itchy and Strachy gazette link(text) and a circular representative image composed from a header(as an anchor tag) and a form to suscribe to the gazette and a new button with a bottom line.  
    * Under, there are 3 text columns that explain one by one the history, evolution and new whispers that envolve the Simpsons.  
    *  At the bottom there is a footer with 3 social media icons and hover effects over them. that anchors the usor to the sial media.      
 
@@ -165,9 +161,7 @@ The text for section aside of the Concerts and Gigs was copied from the Wikipedi
 In the second section I used the text from Youtube´s page from Tryworld channel.
 ## <a name="Media"></a>Media ##
 The photos used in this site were obtained from Google, I haven´t been getting them from a registered page, but from an open source like Google images. 
-I have gathered a file with all the pages where each page is comming from, this is the link </assets/image roots/image roots and webpages.md>
-
- [link](https://github.com/Rahmenordnung/project-M/blob/master/assets/image%20roots/image%20roots%20and%20webpages.md)
+I have gathered a file with all the pages where each page is comming from, this is the [link](https://github.com/Rahmenordnung/project-M/blob/master/assets/image%20roots/image%20roots%20and%20webpages.md)
 ## <a name="Acknowledgements"></a>Acknowledgements 
 I received inspiration for this project from my mentor that introduced me the idea of trying something that counted for me, and not only follw the example offered in the milestone text example.  
 I tryed to be at the same time as original as possible. Create texts and images produced by so many years of looking this cartoons and crate a page  inspired by the fun and pleasure that I feal when I watch them.  
