@@ -258,22 +258,22 @@ figure.slider figure figcaption {
 /*-----animation-------(both LIbrary and Concerts)*/
 
 .springfield{
-    background-image: url('assets/images/springjpg.jpg')
+    background-image: url('images/springjpg.jpg')
 }
 .homer{
-    background-image: url('assets/images/homer_couch.jpg')
+    background-image: url('images/homer_couch.jpg')
 }
 .bart{
-    background-image: url('assets/images/bart_kiting_ss-vi.jpg')
+    background-image: url('images/bart_kiting_ss-vi.jpg')
 }
 .lisa{
-    background-image: url('assets/images/lisas saxo.jpg')
+    background-image: url('images/lisas saxo.jpg')
 }
 .maggie{
-    background-image: url('assets/images/maxresdefault.jpg')
+    background-image: url('images/maxresdefault.jpg')
 }
 .marge{
-    background-image: url('assets/images/flying Marge.jpg')
+    background-image: url('images/flying Marge.jpg')
 }
 
 .main {
@@ -721,7 +721,7 @@ div#captioned-gallery {
 .contacts{
     color:#99ff33;
     
-    background-image: url(/assets/images/moe_phone.jpg);
+    background-image: url(images/moe_phone.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
