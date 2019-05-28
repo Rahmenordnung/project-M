@@ -258,7 +258,7 @@ figure.slider figure figcaption {
 /*-----animation-------(both LIbrary and Concerts)*/
 
 .springfield{
-    background-image: url('/assets/images/springjpg.jpg')
+    background-image: url('/assets/images/welcome_to_sprienfield.jpg')
 }
 .homer{
     background-image: url('/assets/images/homer_couch.jpg')
@@ -721,7 +721,7 @@ div#captioned-gallery {
 .contacts{
     color:#99ff33;
     
-    background-image: url(/assets/images/moe_phone.jpg);
+    background-image: url('/assets/images/moe_phone.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
