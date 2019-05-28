@@ -615,7 +615,7 @@ footer {
     display: none;
 }
 @media(max-width: 767px) {
-    .couch,
+    
     header #bart,
     header nav,
     header nav li,

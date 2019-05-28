@@ -31,18 +31,20 @@
 
 
 ## <a name="Name"></a>Name
-The project was named (**The Simpsons Band**) in this way because of the musicality that the Simpsons have been introducing in their  cartoons, and that is for already 30 years. That will be one reason, and also because the music is making people understand better charters fellings and the message that their want to send. It's purpose is to make a small plot of the serie,  small history and the last news that  envolve Simpsons planet
+For already 30 years The Simpsons cartoon have been bringing fun and inteligent humor to our homes. But not only that but also lot of music and that is the reason why I chose **The Simpsons Band** as the name of this project.
+The music is making people understand better charters fellings and the message that their want to send, it crystalize their words.
 
 ## <a name="UX"></a>UX
 
-The website is designed for all public fans or not only for The Simpsons fans, but it can be used by them as well. It is designed by one fan ,introducing the viewer to the Simpsons world throgh viedeos, music and text,  
+The purpose of he project is to make a small plot of the serie, small history and the last news that envolve ""Simpsons planet" which is surounded in wave of concerts".
+The website is designed for all public fans or not. It is designed by one fan ,introducing the user to the Simpsons world throgh viedeos, music and text. 
 The user can, for intance understand how one of the charaters is, in the Serie, and also listen him singing or read something about him.  
 At the Contact page one can send The Simpsons an email or visit a link to one of their pages or look for their adress,etc
 
 
 #### <a name="Wireframes"></a>Wireframes :
 
-* As a longtime fan of the serie, I want to listen to some of their songs, to bring back good memories or continue laughing.
+* As a longtime fan of the serie, who wants to listen to some of their songs and to bring back good memories or continue laughing.
 
 * As a person who know their most popular episodes, I want to check their database, to rediscover some of their best features.
 
@@ -53,11 +55,7 @@ At the Contact page one can send The Simpsons an email or visit a link to one of
 
 * Or as a well-known fan continue their support by listenning to a selection of their more emblematic songs, or clips. And get to read the latest news about them.
 
-* As a true fan, get in contact with them , personally and get in contact with them
-
-
-
-
+* As a true fan, get in contact with them, personally and get in contact with them
 
 #### <a name="Wireframes(images)"></a>Wireframes(images):
 
@@ -74,9 +72,9 @@ The site has 4 different pages that can be accesed from the main page, which is
                 
 - THE HOME PAGE (index.html): that also contains a small resumee of the page and some images on a slider.  
                 
-- LIBRARY(index.html) which has  a section of videos in a bootsrap grid table with an aside collapsible that has short information about each characters of the The Simspon Family  
+- LIBRARY(index.html) which has  a section of videos in a bootsrap grid table with an aside collapsible that has short information about each characters of the The Simpsons Family  
                 
-- CONCERTS AND GIGS contains some audio file of each character , and a songs that make all together "a concert" with the voices of The Simpsons , also there is an aside text that contains an extract of the latest news surounding The Simpsons   
+- CONCERTS AND GIGS contains some emblematic audio file of each character, that make all together "a concert" with the voices of characters, also there is an aside text that contains an extract of the latest news surounding The Simpsons   
                 
 - ITCHY AND SCRATCY GAZETTE is a page dedicated to the latest news and rumos that suround the Simpsons family
                 
@@ -86,36 +84,39 @@ The site has 4 different pages that can be accesed from the main page, which is
 The commun element of each page along the site is a menu under the <nav> selector that contain 4 anchors in a unrodered list. They conform the menu of the site. The selected element of the menu it will change color when clicked    
 #### <a name="index.html"></a>index.html ####
    * Contains the start page... that after the menu , has an automatic image slider of The Simpsons made with help of Css settings ,media queries and @keyframes.  
-   * Below, there is the Itchy and Strachy gazette link(text) and a circular representative image composed from a header(as an anchor tag) and a form to suscribe to the gazette and a new button with a bottom line.  
-   * Under, there are 3 text columns that explain one by one the history, evolution and new whispers that envolve the Simpsons.  
-   *  At the bottom there is a footer with 3 social media icons and hover effects over them. that anchors the usor to the sial media.      
+   * Below, there is the __Itchy and Strachy gazette link(text) and a circular representative image composed from a header(as an anchor tag)__ and a form to suscribe to the gazette and a new button with a bottom line.  
+   * Under, there are three text columns that explain one by one the history, evolution and new whispers that envolve the Simpsons.  
+   *  At the bottom there is a footer with also three social media icons and hover effects over them. that anchors the usor to the sial media.      
 
 #### <a name="library.html"></a>library.html ####
   * After the menu and the Itchy and Scratchy gazette the page is dedicated to a galery of videos and some explicative text.   
-  * Therefore the videos are placed in a Bootsrap grid display of 12 embeded videos ,grouped by the main personajes in the serie, so each personaje has two videos that I found as representative.    
+  * Therefore the videos are placed in a Bootsrap grid display of twelve embeded videos ,grouped by the main personajes in the serie, so each personaje has two videos that I found as representative.    
   * There is a text that stays in an acorderon available by clicking on it. This was made whith the help oh checkboxes, input and relative position in css.  
-  * Also there is an animated background  in 5 colors that complete the page, made with @keyframes help.  
+  * Also there is an animated background in five colors that complete the page, made with @keyframes help.  
   * At the end there is a footer that end the page in the same was as in index.html  
 
 #### <a name="gigs.html"></a>gigs.html ####
-   * Has a basic structure with menu and the gazzete with the submit form. Then there is a list of audio recors grouped by characters background, that one can listened or either downloaded   
-   * One the right there is an aside that contains a voting form and petition that is detailed in the Itchy gazette .  
+   * Has a basic structure with menu and the gazzete with the submit form.  * A list of audio recors grouped by characters background, that one can listen or either downloaded.   
+   * One the right there is an aside that contains a voting form and petition that is detailed in the Itchy gazette . 
+   * There is a text that stays in an acorderon available by clicking on it. This was made whith the help oh checkboxes, input and relative position in css. 
    * Also there is an animated background  in 5 colors that complete the page, made with @keyframes help.  
    * And a footer as in the other pages.
 
 #### <a name="Itchy.html"></a>Itchy.html #### 
    * Is divided in 5 columns of text renederd and explains the purpose of a fictive petition, with the grid system and responsive to small devices.
-   *Also contains some anchor tags with some gif images that contexualize the text and give the impresion of modernity
+   * Also contains some anchor tags with some gif images that contexualize the text and give the impresion of modernity
    * And a footer as in the other pages.
                   
+
 #### <a name="Contact.html"></a>Contact.html ##
    * The page is conformed by the <navbar> and a big form with The Simpsons contact informations, of course is not real , but if one hover over The Simpson name there is a link to   
-   * The official Fox page where one can se the latest Simpsons episodes.In this form the email and the message thet the user desires to send to the Simpson is required and therefore are marked with a small red star.  
+   * The official Fox page where one can se the latest Simpsons episodes. In this form the email and the message thet the user desires to send to the Simpson is required and therefore are marked with a small red star.  
  
+
 # <a name="Features_left_to_implement"></a>Features left to implement # 
    
    * In a future, when I would be able to work with Javascript, I would surely be adding a playlist to the audio files, because there are to many good songs left in the network.  
-   * Also I would like to improve the Slider making it more sophisticated, but that when over my time and understanding ressources.  
+   * Also I would like to improve the Slider making it more sophisticated, but that when over my time, and understanding better the ressources used in it.  
    * A good proyect would be that for the videos page a grid system that is animated and hides after each viewing would be used.  
    * And last I also would have made the page with a soundtrack, or some audio effects.  
 
@@ -126,9 +127,8 @@ The commun element of each page along the site is a menu under the <nav> selecto
 3. "Font awesome" used to allow the footer icon to work properly 
 4. The "Itch and Scratchy gazette" is built up uppon a "Code pen" newspaper template, and I updated the template to my needs and used some of their css, of course connecting it with my own css.
 5. Also the Slider and the Dropdown are adapted from different pages such as https://developer.mozilla.org/en-US/, https://www.w3schools.com/, https://codepen.io/
+6. HTML/CSS
  
-
-
 
 ## <a name="Testing"></a> Testing 
 
@@ -159,8 +159,8 @@ Try to submit the form with all inputs valid and verify that a success message a
 
 
 ## <a name="Content"></a>Content and 
-The text for section aside of the Concerts and Gigs was copied from the Wikipedia in the first box of the acordeon, and "The Guardian" article in the 3rd box of the same section.  
-In the second section I used the text from Youtube´s page from Tryworld channel.
+The text for section aside of the Concerts and Gigs was copied from the  [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) in the first box of the acordeon, and ["The Guardian"](https://www.theguardian.com/commentisfree/2018/nov/01/apu-simpsons-hero) article in the 3rd box of the same section.  
+In the second section I used the text from Youtube´s page from  [Tryworld channel.](https://www.youtube.com/watch?v=UWaEzRBii_g)
 ## <a name="Media"></a>Media ##
 The photos used in this site were obtained from Google, I haven´t been getting them from a registered page, but from an open source like Google images. 
 I have gathered a file with all the pages where each page is comming from, this is the [link](https://github.com/Rahmenordnung/project-M/blob/master/assets/image%20roots/image%20roots%20and%20webpages.md)
