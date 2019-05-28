@@ -29,7 +29,7 @@ This file is used to store the url of the pages from where I took the images
 
 * https://www.ranker.com/list/funniest-bart-simpson-prank-calls/jacobybancroft-------moeold.jpg
 
-* https://snappygoat.com/free-public-domain-images-paper_old_texture_parchment_1/7GL4j-BRYO0e0S6JsPeC-ho9CZN2FxDNdBkz7Dy5tmA.html#,0,0.b6f0c4db6a83d1e21febb2076e978c3e2d242474-----paperold.jpg
+* https://www.template.net/design-templates/textures/old-paper-texture/-----229714-Old-paper-texture.jpg
 
 * https://www.alamy.com/stock-photo/simpsons-homer.html----simp-jpg
 
