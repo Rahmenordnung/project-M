@@ -31,7 +31,7 @@
 
 
 ## <a name="Name"></a>Name
-The project was named (**The Simpsons Band**) in this way because of the musicality that the Simpsons have been introduced in their  cartoons, since for already 30 years. That will be one reason, and also because the music is making people understand better charters fellings and the message that their want to send. It's purpose is to make a small plot of the serie,  small history and the last news that  envolve Simpsons planet
+The project was named (**The Simpsons Band**) in this way because of the musicality that the Simpsons have been introducing in their  cartoons, and that is for already 30 years. That will be one reason, and also because the music is making people understand better charters fellings and the message that their want to send. It's purpose is to make a small plot of the serie,  small history and the last news that  envolve Simpsons planet
 
 ## <a name="UX"></a>UX
 
