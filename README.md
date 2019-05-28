@@ -163,7 +163,7 @@ The text for section aside of the Concerts and Gigs was copied from the  [Wikipe
 In the second section I used the text from Youtube´s page from  [Tryworld channel.](https://www.youtube.com/watch?v=UWaEzRBii_g)
 ## <a name="Media"></a>Media ##
 The photos used in this site were obtained from Google, I haven´t been getting them from a registered page, but from an open source like Google images. 
-I have gathered a file with all the pages where each page is comming from, this is the [link](https://github.com/Rahmenordnung/project-M/blob/master/assets/image%20roots/image%20roots%20and%20webpages.md)
+I have gathered a file with all the pages where each page is coming from, this is the [link](https://github.com/Rahmenordnung/project-M/blob/master/assets/image%20roots/image%20roots%20and%20webpages.md)
 ## <a name="Acknowledgements"></a>Acknowledgements 
 I received inspiration for this project from my mentor that introduced me the idea of trying something that counted for me, and not only follw the example offered in the milestone text example.  
 I tryed to be at the same time as original as possible. Create texts and images produced by so many years of looking this cartoons and crate a page  inspired by the fun and pleasure that I feal when I watch them.  
