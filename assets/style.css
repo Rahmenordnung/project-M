@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Gaegu|Gloria+Hallelujah|Rock+Salt');
 
-
-
 #body {
     font-family: Akbar, sans-serif;
     font-size: 15px;
@@ -18,19 +16,14 @@
     overflow: hidden;
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 17px;
-    
-}
-.container h3 {
     font-weight: bold;
-    color:#1a0600;
+    color:#1a0600
 }
-
 ul {
     margin: 0;
     padding: 0;
 
 }
-
 .dark {
     padding: 15px;
     background: #fbc531;
@@ -48,9 +41,7 @@ ul {
     margin-bottom: 10px;
     text-align: center;
     background:url("../assets/images/yellow-c5-banker_grande.jpg") center no-repeat;
-    
 }
-
 .button_1 {
     border: none;
     background: #F79F1F;
@@ -63,10 +54,7 @@ ul {
     transition: all 300ms ease;
     font-family: 'Rock Salt', cursive;
     height: 47px;
-
-
 }
-
 .button_1:before {
     content: '';
     position: absolute;
@@ -78,14 +66,12 @@ ul {
     border-radius: 5px;
     transition: all 2s ease;
 }
-
 .button_1:hover:before {
     width: 100%;
 }
 /*round image itchy and scratchy*/
 .img {
   border-radius: 75%;
-  
   flex: 0 0 150px;
   justify-content: center;
   overflow: hidden;
@@ -97,13 +83,11 @@ ul {
 }
 
 .img {
-   
     transition: transform .2s; /* Animation */
     width: 120px;
     height: 120px;
     margin: 0 auto;
 }
-
 .img:hover {
     transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
@@ -120,42 +104,36 @@ header {
     min-height: 70px;
     border-bottom:#fbc531 4px solid;
 }
-
 header a {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
 }
-
 header li {
     float: left;
     display: inline;
     padding: 0 20px 0 20px;
 }
-
 header #bart {
     float: left;
-}
-
-
-header #bart h1 {
     margin: 0;
-
 }
-
 header nav {
     float: right;
     margin-top: 15px;
 }
 
+.highlight{
+    text-transform: capitalize;
+    font-size: 38px;
+    text-decoration:none;
+}
 header .highlight,
 header .current a {
     color: #fff200;
     font-weight: lighter;
-
 }
-
 header a:hover {
     color: #ffda79;
     font-weight: bolder;
@@ -249,12 +227,7 @@ figure.slider figure figcaption {
     width: 90px;
 }
 
-
-
-
-
 /*Library*/
-
 
 /*-----animation-------(both LIbrary and Concerts)*/
 
@@ -301,12 +274,10 @@ figure.slider figure figcaption {
         background: #ffff66;
     }
 }
-
 .video_title_category{
     
     padding:18px 0 37px 0;
 }
-
 .wrapper_video{
     margin: 15px 0 25px 0;
 }
@@ -321,25 +292,23 @@ iframe{
     color: #000;
     background: #eccc68;
     border-bottom: 3px #eb2f06 solid;
-
+    height: 145px;
 }
-
 #newsletter h1 {
     float: left;
 }
-
 #newsletter form {
     float: right;
     margin-top: 15px;
 }
-
 #newsletter input[type="email"] {
     padding: 4px;
     height: 45px;
     width: 150px;
 }
 
-/*---acordeon---*/
+/*-----acordeon-----*/
+
 body {
   color: #000;
   background: yellow;
@@ -350,9 +319,8 @@ h1 {
 .half {
   float: left;
   width: 100%;
- 
 }
-/* Acordeon styles */
+/*----- Acordeon styles ----*/
 .tab {
   position: relative;
   margin-bottom: 10px;
@@ -395,7 +363,7 @@ h1 {
   max-height: 100vh;
 }
 /* Icon */
-.tab label::after {
+  .tab label::after {
   position: absolute;
   right: 0;
   top: 0;
@@ -404,7 +372,6 @@ h1 {
   height: 3em;
   line-height: 3;
   text-align: center;
-  
   transition: all .35s;
 }
 .tab input[type=checkbox] + label::after {
@@ -419,8 +386,6 @@ h1 {
 .tab input[type=radio]:checked + label::after {
   transform: rotateX(180deg);
 }
-
-
 
 /*Sidebar*/
 
@@ -440,14 +405,10 @@ aside#sidebar {
 article#main-col {
     float: left;
     width: 65%;
-
-
 }
-
 aside#sidebar .quote input,
 aside#sidebar .quote textarea {
     font-family:'Gloria Hallelujah';
-    
 }
 .petition_input{
     margin-bottom: 5px;
@@ -457,7 +418,6 @@ aside#sidebar .quote textarea {
         height: 90px;
         margin-bottom: 5px;
     }
-
 aside#sidebar .quote textarea
 
 /*Services---list for images in Concerts.html*/
@@ -469,7 +429,6 @@ ul#service li {
     margin-bottom: 5px;
     background: #d9f2e6;
 }
-
 .bordered {
     border: #ff0000 solid 2px;
     background-position: center;
@@ -479,31 +438,22 @@ ul#service li {
     margin:10px 15px 10px 15px;
     padding: 10px 10px;
     list-style: none;
-    
 }
-
-
 .bordered h3 {
     color: white;
     text-align: left;
     margin: 0px;
 }
-
 .bordered p {
     color: #4d2600;
 }
-    
 .bordered audio {
     width: 45%;
     display: block;
 }
-
 .bordered audio .long {
     width: 95%;
 }
-
-
-
 
 /* - Library grid----personages video */
 
@@ -525,32 +475,25 @@ ul#service li {
     color:#4cff00;
 }
 
-
-
 /*------- footer ------------*/
 
 footer {
-   
     padding: 20px;
     color: #000;
     background-color: #DDBC95;
     text-align: center;
-    width: 100%
-}
-.fa{
-    
+    width: 100%;
+    border-top: #480607 4px solid;
 }
 .social-icons {
     margin-right: 1300px;
     vertical-align: bottom;
 }
-
 .pull-right {
     position: relative;
     right: 75px;
     bottom: 28px;
 }
-
 .fa {
     padding: 10px;
     font-size: 30px;
@@ -561,62 +504,54 @@ footer {
     width: 51px;
     height: 51px;
 }
-
 .fa:hover {
     opacity: 0.7;
 }
-
 .fa-twitter {
     background: #55ACEE;
     color: white;
 }
-
-
 .fa-facebook {
     background: #3B5998;
     color: white;
 }
-
 .fa-youtube {
     background: #bb0000;
     color: white;
 }
-
 
 /*--------------media----------------*/
 
 @media (min-width: 766px) { 
     iframe{
         width:100%;
-        
     }
 }
 @media (max-width: 766px) {
- article#main-col{
+ article#main-col {
         width:100%;
         padding: 0px 0px; 
     }
- aside#sidebar{
+ aside#sidebar {
      width:95%;
      padding: 5px 5px;
      margin: 0 10px;
     }
  }
- .containerV ul li{
+ .containerV ul li {
      width: 45%;
      display: list-item;
  }
- .col col col-lg-3{
+ .col col col-lg-3 {
      margin-left: 55px;
  }
-.video_title_category{
+.video_title_category {
   text-align: center;
  }
- .img{
+ .img {
     display: none;
 }
 @media(max-width: 767px) {
-    
     header #bart,
     header nav,
     header nav li,
@@ -626,43 +561,41 @@ footer {
     .article#main-col,
     .aside#sidebar,.wrapper,
     .container{
-
-        float: none;
-        text-align: center;
-        width: 100%;
+    float: none;
+    text-align: center;
+    width: 100%;
 }
 .img{
     display: none;
 }
-    
-    }
-    header {
+header {
         padding-bottom: 20px;
-    }
-    #showcase h1 {
+}
+#showcase h1 {
         margin-top: 40px;
-    }
-    #newsletter button {
+}
+#newsletter button {
         display: inline-block;
         width: 100%;
         
-    }
-    #newsletter form input[type="email"],
+}
+#newsletter form input[type="email"],
     .quote input {
         width: 100%;
         height: 40px;
         margin-bottom: 5px;
-    }
-     .message_petition{
+}
+.message_petition{
         width: 100%;
         height: 90px;
         margin-bottom: 5px;
-    }
-    .request{
+}
+.request{
         text-align: center
         
     }
-@media only screen and (max-width: 1199px) {
+}
+@media only screen and (max-width: 1199px) { 
     .new {
         display: none;
     }
@@ -674,9 +607,6 @@ footer {
     }
 } 
 
-/*----Videos library----*/
-
-
 /*------Audio-----*/
 
 body,
@@ -687,7 +617,7 @@ figure {
     font-weight: 100;
 }
 
-div#captioned-gallery {
+div#captioned-gallery  {
     width: 100%;
     overflow: hidden;
     height: auto;
@@ -701,7 +631,6 @@ div#captioned-gallery {
     right: 75px;
     bottom: 28px;
 }
-
 .page-title {
     text-align: center;
     font-style: oblique;
@@ -712,68 +641,57 @@ div#captioned-gallery {
 
 /*----Contact----*/
 
-.large{
-    
+.large {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.contacts{
+.contacts {
     color:#99ff33;
-    
-    background-image: url('images/moe_phone.jpg');
+    background-image: url('../assets/images/moe_phone.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.list-unstyled{
+.list-unstyled {
     color:red;
 }
-.text_title{
-    
-}
-.ctitle h2{
+.ctitle  {
     font-size: 54px;
     position: relative;
     margin-bottom: 15px;
     padding-bottom: 20px;
     text-transform: uppercase;
 }
-.ctitle p{
+.ctitle p {
     font-size: 37px;
     font-weight: 300;
 }
-
-.input ul{
+.input ul {
     margin-top:20px;
     margin-left: 20px;
     text-decoration: none;
-    
 }
-.input li{
+.input li {
     margin:15px 0px;
     font-weight: 200;
     font-size: 25px;
-    
 }
-
-.input li a{
+.input li a {
     color:red;
 }
-
-.input form .form-control{
+.input form .form-control {
     color:#000;
     box-shadow: none;
     border-color:#000;
     background: rgba(0,0,0,0.2);
 }
-.input form .form-control:focus{
+.input form .form-control:focus {
     background: rgba(0,0,0,0.6);
 }
-.red{
+.red {
     color:#ea0000;
-    
 }
-.btn{
+.btn {
     margin-top: 10px
 }
 
