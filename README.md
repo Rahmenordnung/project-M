@@ -32,13 +32,13 @@
 
 ## <a name="Name"></a>Name
 For already 30 years The Simpsons cartoon have been bringing fun and inteligent humor to our homes. But not only that but also lot of music and that is the reason why I chose **The Simpsons Band** as the name of this project.
-The music is making people understand better charters fellings and the message that their want to send, it crystalize their words.
+The music is making people understand better charters fellings and the message that they want to send, it crystalize their words.
 
 ## <a name="UX"></a>UX
 
 The purpose of he project is to make a small plot of the serie, small history and the last news that envolve ""Simpsons planet" which is surounded in wave of concerts".
 The website is designed for all public fans or not. It is designed by one fan ,introducing the user to the Simpsons world throgh viedeos, music and text. 
-The user can, for intance understand how one of the charaters is, in the Serie, and also listen him singing or read something about him.  
+The user can, for intance understand how one of the charaters is in the Serie, and also listen him singing or read something about him.  
 At the Contact page one can send The Simpsons an email or visit a link to one of their pages or look for their adress,etc
 
 
@@ -76,12 +76,15 @@ The site has 4 different pages that can be accesed from the main page, which is
                 
 - CONCERTS AND GIGS contains some emblematic audio file of each character, that make all together "a concert" with the voices of characters, also there is an aside text that contains an extract of the latest news surounding The Simpsons   
                 
-- ITCHY AND SCRATCY GAZETTE is a page dedicated to the latest news and rumos that suround the Simpsons family
+- ITCHY AND SCRATCY GAZETTE is a page dedicated to the latest news and rumos that suround the Simpsons family, and a wider documentation about them.
                 
 - CONTACT contains a form that can be used to talk to any of the personages or authors.
 
+Mobile First and user friendly application / webpage
 
-The commun element of each page along the site is a menu under the <nav> selector that contain 4 anchors in a unrodered list. They conform the menu of the site. The selected element of the menu it will change color when clicked    
+
+__The commun element of each page along the site is a menu under the <nav> selector that contain 4 anchors in a unrodered list. They conform the menu of the site. The selected element of the menu it will change color when clicked__    
+
 #### <a name="index.html"></a>index.html ####
    * Contains the start page... that after the menu , has an automatic image slider of The Simpsons made with help of Css settings ,media queries and @keyframes.  
    * Below, there is the __Itchy and Strachy gazette link(text) and a circular representative image composed from a header(as an anchor tag)__ and a form to suscribe to the gazette and a new button with a bottom line.  
@@ -96,7 +99,8 @@ The commun element of each page along the site is a menu under the <nav> selecto
   * At the end there is a footer that end the page in the same was as in index.html  
 
 #### <a name="gigs.html"></a>gigs.html ####
-   * Has a basic structure with menu and the gazzete with the submit form.  * A list of audio recors grouped by characters background, that one can listen or either downloaded.   
+   * Has a basic structure with menu and the gazzete with the submit form.  
+   * A list of audio recors grouped by characters background, that one can listen or either downloaded.   
    * One the right there is an aside that contains a voting form and petition that is detailed in the Itchy gazette . 
    * There is a text that stays in an acorderon available by clicking on it. This was made whith the help oh checkboxes, input and relative position in css. 
    * Also there is an animated background  in 5 colors that complete the page, made with @keyframes help.  
@@ -104,7 +108,7 @@ The commun element of each page along the site is a menu under the <nav> selecto
 
 #### <a name="Itchy.html"></a>Itchy.html #### 
    * Is divided in 5 columns of text renederd and explains the purpose of a fictive petition, with the grid system and responsive to small devices.
-   * Also contains some anchor tags with some gif images that contexualize the text and give the impresion of modernity
+   * Also contains some figures filled with gif images that contexualize the text and give the impresion of modernity.
    * And a footer as in the other pages.
                   
 
@@ -122,12 +126,13 @@ The commun element of each page along the site is a menu under the <nav> selecto
 
 ## <a name="Technologies_Used"></a>Technologies Used 
 
-1. "Bootsrap" used to allow the buttons work properly   
-2. "Jquery"  is the most widely used JavaScript library use to aply javafunctions to html code.   
-3. "Font awesome" used to allow the footer icon to work properly 
-4. The "Itch and Scratchy gazette" is built up uppon a "Code pen" newspaper template, and I updated the template to my needs and used some of their css, of course connecting it with my own css.
-5. Also the Slider and the Dropdown are adapted from different pages such as https://developer.mozilla.org/en-US/, https://www.w3schools.com/, https://codepen.io/
-6. HTML/CSS
+1. ["Bootsrap"](https://getbootstrap.com/) used to allow the buttons work properly and for the grid system and media queries.
+2. HTML/CSS
+3. The @keyframes rule specifies the animation code.  
+4. ["Font awesome"](https://fontawesome.com/) used to allow the footer icon to work properly. 
+5. The "Itch and Scratchy gazette" is built up uppon a "Code pen" newspaper template, and I updated the template to my needs and used some of their css, of course connecting it with my own css.
+6. Also the Slider and the Dropdown are adapted from different pages such as ["MDN, Mozilla developer site"](https://developer.mozilla.org/en-US/) , ["W3schools"](https://www.w3schools.com/) , ["Codepen"](https://codepen.io/) 
+
  
 
 ## <a name="Testing"></a> Testing 
@@ -140,7 +145,7 @@ And that the icons in the footer deploy by hovering and directing the user to th
 The videos work if one click the play button and stop when needed.And the hover above deploy the desired efect when the mouse is over it.  
 That the acordeons work displaying the text in each one of the boxes and hidding the text by clicking the boxes.  
 That the audio files can pe played/downloaded when clicking the icons. 
-If the  @keyframes work the the back ground in the 2nd and 3rd pages will change color.  
+If the @keyframes work the the back ground in the 2nd and 3rd pages will change color. This ca be proved by changing the times in css, and see if the changes have effect. 
  
 In the Contact form: Contact form:  
 Go to the "Contact Us" page  
