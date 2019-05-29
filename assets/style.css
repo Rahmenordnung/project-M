@@ -166,7 +166,7 @@ header a:hover {
 
 @keyframes slidy {
     0% {
-        left: 0%;
+        left: -50%;
     }
     20% {
         left: -100%;
@@ -200,7 +200,7 @@ figure.slider {
     font-size: 0;
     /*animation: 45s 6s slidy infinite;*/
     animation-name: slidy;
-    animation-duration: 30s;
+    animation-duration: 35s;
     animation-iteration-count: infinite;
     animation-direction: normal;
     animation-timing-function: linear;
