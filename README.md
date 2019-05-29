@@ -117,14 +117,14 @@ __The commun element of each page along the site is a menu under the <nav> selec
    * The official Fox page where one can se the latest Simpsons episodes. In this form the email and the message thet the user desires to send to the Simpson is required and therefore are marked with a small red star.  
  
 
-# <a name="Features_left_to_implement"></a>Features left to implement # 
+# <a name="Features left to implement"></a>Features left to implement # 
    
    * In a future, when I would be able to work with Javascript, I would surely be adding a playlist to the audio files, because there are to many good songs left in the network.  
    * Also I would like to improve the Slider making it more sophisticated, but that when over my time, and understanding better the ressources used in it.  
    * A good proyect would be that for the videos page a grid system that is animated and hides after each viewing would be used.  
    * And last I also would have made the page with a soundtrack, or some audio effects.  
 
-## <a name="Technologies_Used"></a>Technologies Used 
+## <a name="Technologies Used"></a>Technologies Used 
 
 1. ["Bootsrap"](https://getbootstrap.com/) used to allow the buttons work properly and for the grid system and media queries.
 2. HTML/CSS
