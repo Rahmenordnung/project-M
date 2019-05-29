@@ -38,7 +38,7 @@ ul {
     margin-top: 18px;
     margin-bottom: 10px;
     text-align: center;
-    background:url("/assets/images/transparent-envelope-template5.jpg") center no-repeat;
+    background:url("../assets/images/transparent-envelope-template5.jpg") center no-repeat;
 }
 .dark2{
     padding: 15px;
