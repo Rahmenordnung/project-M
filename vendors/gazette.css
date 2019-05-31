@@ -1,10 +1,9 @@
-body{
-    font-family: 'Droid Serif', serif;
+.gazette{
+    font-family: 'Gloria Hallelujah', cursive;
     font-size: 14px;
     color: #2f2f2f;
     background-color: #f9f7f1;
-    background-image: url('../assets/images/229714-Old-paper-texture.jpg');
-    
+    background-image: url('/assets/images/229714-Old-paper-texture.jpg');    
 }
 .container1 {
     margin-left: 10%;
@@ -18,8 +17,6 @@ header1{
     display: inline-block;
     line-height: 72px;
     margin-bottom: 20px;
-    
-
 }
 p{
     margin-top: 0;
@@ -28,10 +25,7 @@ p{
 .head{
     text-align: center;
     position: relative;
-
-
 }
-
 .gallery{
     margin-bottom: 11px;
 }
@@ -43,8 +37,6 @@ p{
     padding: 12px 0 12px 0;
 
 }
-
-
 .grandpa{
     width: 500px;
     height:100px;
@@ -57,13 +49,7 @@ p{
     word-spacing: -.31em;
     display: inline-block;
     margin: 30px 2% 0 2%;
-
-
 }
-.collumns{
-
-}
-
 .collumn{
     font-size: 14px;
     line-height: 20px;
@@ -150,7 +136,6 @@ p{
     margin: 0 auto;
 
 }
-
 .collumn .headline.hl5{
     font-weight: 400;
     font-size: 42px;
@@ -274,11 +259,16 @@ p{
 }
 @media only all and (max-width: 600px) {
     .container1{
-       width: 720px;
-       margin-left: 15px;
-       margin-right: 15px;
+       width: 85%;
+       margin-left: 7%;
+       margin-right: 6%;
     }
-    
+    .container_itchy,.abraham {
+        width:100%;
+    }
+    header{
+       width: auto;
+       }
     .collumn{
         width: 100%;
     }
@@ -294,7 +284,7 @@ p{
     
     }
     footer{
-        width:750px;
+        width:100%;
     }
     
     .gallery{

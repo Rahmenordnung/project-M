@@ -15,7 +15,7 @@
     margin: auto;
     overflow: hidden;
     font-family: 'Gloria Hallelujah', cursive;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     color:#1a0600
 }
@@ -84,8 +84,8 @@ ul {
 
 .img {
     transition: transform .2s; /* Animation */
-    width: 120px;
-    height: 120px;
+    width: 85px;
+    height: 85px;
     margin: 0 auto;
 }
 .img:hover {
@@ -95,14 +95,13 @@ ul {
 /*Title*/
 
 /*header*/
-
-
 header {
     background: #BA5536;
     color: #332900;
-    padding-top: 30px;
+    padding-top: 5px;
     min-height: 70px;
     border-bottom:#fbc531 4px solid;
+    box-shadow: 10px -2px 20px 8px #234a95;
 }
 header a {
     color: black;
@@ -121,13 +120,14 @@ header #bart {
 }
 header nav {
     float: right;
-    margin-top: 15px;
+    margin-top: 35px;
 }
 
 .highlight{
     text-transform: capitalize;
-    font-size: 38px;
+    font-size: 40px;
     text-decoration:none;
+    line-height: 80%;
 }
 header .highlight,
 header .current a {
@@ -292,7 +292,7 @@ iframe{
     color: #000;
     background: #eccc68;
     border-bottom: 3px #eb2f06 solid;
-    height: 145px;
+    height: 125px;
 }
 #newsletter h1 {
     float: left;
@@ -304,7 +304,11 @@ iframe{
 #newsletter input[type="email"] {
     padding: 4px;
     height: 45px;
-    width: 150px;
+    width: 200px;
+}
+
+#main1{
+     animation: bgcolor infinite 20s;
 }
 
 /*-----acordeon-----*/
@@ -409,6 +413,8 @@ article#main-col {
 aside#sidebar .quote input,
 aside#sidebar .quote textarea {
     font-family:'Gloria Hallelujah';
+    width: 100%;
+    margin-bottom: 7px;
 }
 .petition_input{
     margin-bottom: 5px;
@@ -551,7 +557,7 @@ footer {
  .img {
     display: none;
 }
-@media(max-width: 767px) {
+@media(max-width: 812px) {
     header #bart,
     header nav,
     header nav li,
@@ -564,26 +570,38 @@ footer {
     float: none;
     text-align: center;
     width: 100%;
+    font-size: 20px;
+    margin-top: auto;
+}
+#newsletter {
+    padding: 15px;
+    height: 140px;
 }
 .img{
     display: none;
 }
 header {
         padding-bottom: 20px;
+        width:100%;
 }
 #showcase h1 {
         margin-top: 40px;
 }
+
 #newsletter button {
         display: inline-block;
-        width: 100%;
-        
+        width: 75%;
+        height:20px;
+        font-size: 11px;
+        line-height: 10%;
 }
+
 #newsletter form input[type="email"],
     .quote input {
-        width: 100%;
-        height: 40px;
-        margin-bottom: 5px;
+        width: 75%;
+        height: 25px;
+        font-size: initial;
+        font-weight: 400;
 }
 .message_petition{
         width: 100%;
@@ -595,6 +613,24 @@ header {
         
     }
 }
+
+@media only screen and (max-width: 1024px) { 
+    .itchy_title{
+        font-size: 20px;
+        
+    }
+    #newsletter {
+    height: 110px;
+}
+} 
+
+
+@media only screen and (min-width: 1024px) { 
+    .itchy_title{
+        font-size: 28px;
+    }
+} 
+
 @media only screen and (max-width: 1199px) { 
     .new {
         display: none;
@@ -665,6 +701,10 @@ div#captioned-gallery  {
 .ctitle p {
     font-size: 37px;
     font-weight: 300;
+    color: chartreuse;
+}
+.contact_title{
+    color: red;
 }
 .input ul {
     margin-top:20px;
@@ -694,4 +734,5 @@ div#captioned-gallery  {
 .btn {
     margin-top: 10px
 }
+
 
