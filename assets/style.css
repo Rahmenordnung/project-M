@@ -618,14 +618,14 @@ header {
         
     }
     #newsletter {
-    height: 110px;
+    height: 135px;
 }
 } 
 
 
 @media only screen and (min-width: 1024px) { 
     .itchy_title{
-        font-size: 28px;
+        font-size: 23px;
     }
 } 
 
@@ -638,6 +638,9 @@ header {
 @media only screen and (min-width: 1200px) {
     .img {
         display: inherit;
+    }
+    .itchy_title{
+        font-size: 30px;
     }
 } 
 
