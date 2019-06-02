@@ -2,18 +2,16 @@
 
  Tudor George Pascu  /student at Code Institute in Dublin, Ireland, 2018
  
- A link on Github working proyect can be found [here](https://rahmenordnung.github.io/project-M/index.html)
+ This is the [url](https://rahmenordnung.github.io/project-M/index.html) where the website is hosted.
 
- tudorpascu787@gmail.com
- 
  ![alt text](https://github.com/Rahmenordnung/project-M/blob/master/assets/images/extract_page.png)
  
 ## Sumary
 
 * [Name](#Name)
 * [UX](#UX)
-* [Wireframes](#Wireframes)
-   - [Wireframes images](#Wireframes(images))
+* [User Stories](#User_Stories)
+   - [Wireframes link](#Wireframes(link))
 * [Features](#Features)
    - [index.html](#index.html)
    - [library.html](#library.html)
@@ -24,6 +22,7 @@
 * [Technologies_Used](#Technologies_Used)
 * [Testing](#Testing)
 * [Debugging](#Debugging)
+* [Deployment](#Deployment)
 * [Content](#Content)
 * [Media](#Media)
 * [Acknowledgements](#Acknowledgements) 
@@ -36,13 +35,16 @@ The music is making people understand better charters fellings and the message t
 
 ## <a name="UX"></a>UX
 
-The purpose of he project is to make a small plot of the serie, small history and the last news that envolve ""Simpsons planet" which is surounded in wave of concerts".
+The purpose of the project is to make a small plot of the serie, small history and the last news that envolve "Simpsons planet".
+
 The website is designed for all public fans or not. It is designed by one fan ,introducing the user to the Simpsons world throgh viedeos, music and text. 
+
 The user can, for intance understand how one of the charaters is in the Serie, and also listen him singing or read something about him.  
+
 At the Contact page one can send The Simpsons an email or visit a link to one of their pages or look for their adress,etc
 
 
-#### <a name="Wireframes"></a>Wireframes :
+#### <a name="User_Stories"></a>User Stories :
 
 * As a longtime fan of the serie, who wants to listen to some of their songs and to bring back good memories or continue laughing.
 
@@ -57,7 +59,8 @@ At the Contact page one can send The Simpsons an email or visit a link to one of
 
 * As a true fan, get in contact with them, personally and get in contact with them
 
-#### <a name="Wireframes(images)"></a>Wireframes(images):
+
+__<a name="Wireframes(link)"></a>You can find a pdf link for the wirefranes here:__
 
 
 *   [Wireframe pdf](https://github.com/Rahmenordnung/project-M/blob/master/assets/images%20mokup/simpsons%20band%20balsamiq%20images.pdf)
@@ -125,17 +128,24 @@ __The commun element of each page along the site is a menu under the <nav> selec
    * And last I also would have made the page with a soundtrack, or some audio effects.  
 
 ## <a name="Technologies Used"></a>Technologies Used 
-
-1. ["Bootsrap"](https://getbootstrap.com/) used to allow the buttons work properly and for the grid system and media queries.
-2. HTML/CSS
-3. The @keyframes rule specifies the animation code.  
-4. ["Font awesome"](https://fontawesome.com/) used to allow the footer icon to work properly. 
-5. The "Itch and Scratchy gazette" is built up uppon a "Code pen" newspaper template, and I updated the template to my needs and used some of their css, of course connecting it with my own css.
-6. Also the Slider and the Dropdown are adapted from different pages such as ["MDN, Mozilla developer site"](https://developer.mozilla.org/en-US/) , ["W3schools"](https://www.w3schools.com/) , ["Codepen"](https://codepen.io/) 
-
  
 
-## <a name="Testing"></a> Testing 
+1. ["Bootsrap"](https://getbootstrap.com/) used to allow the buttons work properly and for the grid system and media queries. (for the layout and added my own CSS )
+2. HTML/CSS
+3. I have imported fonts from Google: "Gloria+Hallelujah". Because I thought that would be the more suitable to Matt Groenings font style, and 
+4. I got some inspiration for the color themes and palletes from ["mycolor.space"](https://mycolor.space/?hex=%23845EC2&sub=1)
+5. The @keyframes rule specifies the animation code.  
+6. ["Font awesome"](https://fontawesome.com/) used to allow the footer icon to work properly. 
+7. The "Itch and Scratchy gazette" is built up uppon a "Code pen" newspaper template, and I updated the template to my needs and used some of their css, of course connecting it with my own css.
+8. Also the Slider and the Dropdown are adapted from different pages such as [MDN, Mozilla developer site](https://developer.mozilla.org/en-US/) , [W3schools](https://www.w3schools.com/) , [Codepen](https://codepen.io/) 
+
+ 
+## <a name="Testing"></a> Testing  
+
+The app was tested on Samsung S8, Apple iPhone 6, etc, (all the deviced served in the  [Chrome developer tools](https://developer.chrome.com/home/devtools-pillar) and also using the Google Chrome inspect feature to test for repsonsiveness and any errors that occurred. There were many issues founded most of them with the css sidevar/ navbar not resizing, card etc. Also this tool is usefull ,using their console, in founding java errors
+
+These tests included browsers/devices:
+Edge, Mozilla, Chrome, Safari, Internet Explorer 
 
 During the producing time I tested all the link from the navbar, that they take to the desired page and back again.  
 That the slider runs correctly, showing the desired pictured, creating  the correct envoirment.  
@@ -155,15 +165,17 @@ Try to submit the form with all inputs valid and verify that a success message a
 
 ## <a name="Debugging"></a>Debugging
 
-  The app was tested on Samsung S8, Apple iPhone 6, etc,(all the deviced served in the Chrome developer tools) and also using the Google Chrome inspect feature to test for repsonsiveness and any errors that occurred. There were many issues founded most of them with the css sidevar/ navbar not resizing, card etc. Also this tool is usefull ,using their console, in founding java errors
-
    I had a lot to learn with the accordeon and the slider, because in the case of the accordeon I had to learn to make it work without java, or other help.
    And for the slider I really had headakes trying to solve the frame timing problem, and the image sqaring.
    
    Thanks for all the help recieved , metors, tutors, chat, etc
+   
+##  <a name="Deployment"></a>Deployment
+Whenever I thought that a page was finished, I deployed it to "GitHub Pages" using version controls found here - GitHub.
 
+All my commits and project be found here milestone-project-one.
 
-## <a name="Content"></a>Content and 
+## <a name="Content"></a>Content 
 The text for section aside of the Concerts and Gigs was copied from the  [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) in the first box of the acordeon, and ["The Guardian"](https://www.theguardian.com/commentisfree/2018/nov/01/apu-simpsons-hero) article in the 3rd box of the same section.  
 In the second section I used the text from Youtube´s page from  [Tryworld channel.](https://www.youtube.com/watch?v=UWaEzRBii_g)
 ## <a name="Media"></a>Media ##
@@ -173,5 +185,5 @@ I have gathered a file with all the pages where each page is coming from, this i
 I received inspiration for this project from my mentor that introduced me the idea of trying something that counted for me, and not only follw the example offered in the milestone text example.  
 I tryed to be at the same time as original as possible. Create texts and images produced by so many years of looking this cartoons and crate a page  inspired by the fun and pleasure that I feal when I watch them.  
 
-## Thank you very much, for all the help recived from staff, mentors, chat, etc!!!! 
+__Thank you very much, for all the help recived from staff, mentors, chat, etc!!!!__ 
 
