@@ -2,7 +2,7 @@
 
  Tudor George Pascu  /student at Code Institute in Dublin, Ireland, 2018
  
- This is the [url](https://rahmenordnung.github.io/project-M/index.html) where the website is hosted.
+ This is the Github [url](https://rahmenordnung.github.io/project-M/index.html) where the website is hosted.
 
  ![alt text](https://github.com/Rahmenordnung/project-M/blob/master/assets/images/extract_page.png)
  
@@ -171,16 +171,17 @@ Try to submit the form with all inputs valid and verify that a success message a
    Thanks for all the help recieved , metors, tutors, chat, etc
    
 ##  <a name="Deployment"></a>Deployment
-Whenever I thought that a page was finished, I deployed it to "GitHub Pages" using version controls found here - GitHub.
-
-All my commits and project be found here milestone-project-one.
+The website is published in GitHub using -[Github pages](https://github.com/). 
+Where one can discover interesting projects and people with whom to programm toghether .
 
 ## <a name="Content"></a>Content 
 The text for section aside of the Concerts and Gigs was copied from the  [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) in the first box of the acordeon, and ["The Guardian"](https://www.theguardian.com/commentisfree/2018/nov/01/apu-simpsons-hero) article in the 3rd box of the same section.  
 In the second section I used the text from Youtube´s page from  [Tryworld channel.](https://www.youtube.com/watch?v=UWaEzRBii_g)
+
 ## <a name="Media"></a>Media ##
 The photos used in this site were obtained from Google, I haven´t been getting them from a registered page, but from an open source like Google images. 
 I have gathered a file with all the pages where each page is coming from, this is the [link](https://github.com/Rahmenordnung/project-M/blob/master/assets/image%20roots/image%20roots%20and%20webpages.md)
+
 ## <a name="Acknowledgements"></a>Acknowledgements 
 I received inspiration for this project from my mentor that introduced me the idea of trying something that counted for me, and not only follw the example offered in the milestone text example.  
 I tryed to be at the same time as original as possible. Create texts and images produced by so many years of looking this cartoons and crate a page  inspired by the fun and pleasure that I feal when I watch them.  
