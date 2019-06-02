@@ -130,12 +130,12 @@ __The commun element of each page along the site is a menu under the <nav> selec
 ## <a name="Technologies Used"></a>Technologies Used 
  
 
-1. ["Bootsrap"](https://getbootstrap.com/) used to allow the buttons work properly and for the grid system and media queries. (for the layout and added my own CSS )
+1. [Bootsrap](https://getbootstrap.com/) used to allow the buttons work properly and for the grid system and media queries. (for the layout and added my own CSS )
 2. HTML/CSS
 3. I have imported fonts from Google: "Gloria+Hallelujah". Because I thought that would be the more suitable to Matt Groenings font style, and 
-4. I got some inspiration for the color themes and palletes from ["mycolor.space"](https://mycolor.space/?hex=%23845EC2&sub=1)
+4. I got some inspiration for the color themes and palletes from [mycolor.space](https://mycolor.space/?hex=%23845EC2&sub=1)
 5. The @keyframes rule specifies the animation code.  
-6. ["Font awesome"](https://fontawesome.com/) used to allow the footer icon to work properly. 
+6. [Font awesome](https://fontawesome.com/) used to allow the footer icon to work properly. 
 7. The "Itch and Scratchy gazette" is built up uppon a "Code pen" newspaper template, and I updated the template to my needs and used some of their css, of course connecting it with my own css.
 8. Also the Slider and the Dropdown are adapted from different pages such as [MDN, Mozilla developer site](https://developer.mozilla.org/en-US/) , [W3schools](https://www.w3schools.com/) , [Codepen](https://codepen.io/) 
 
@@ -175,7 +175,7 @@ The website is published in GitHub using -[Github pages](https://github.com/).
 Where one can discover interesting projects and people with whom to program toghether .
 
 ## <a name="Content"></a>Content 
-The text for section aside of the Concerts and Gigs was copied from the  [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) in the first box of the acordeon, and ["The Guardian"](https://www.theguardian.com/commentisfree/2018/nov/01/apu-simpsons-hero) article in the 3rd box of the same section.  
+The text for section aside of the Concerts and Gigs was copied from the  [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) in the first box of the acordeon, and [The Guardian](https://www.theguardian.com/commentisfree/2018/nov/01/apu-simpsons-hero) article in the 3rd box of the same section.  
 In the second section I used the text from Youtube´s page from  [Tryworld channel.](https://www.youtube.com/watch?v=UWaEzRBii_g)
 
 ## <a name="Media"></a>Media ##
