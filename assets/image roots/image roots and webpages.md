@@ -39,7 +39,7 @@ This file is used to store the url of the pages from where I took the images
 
 * http://time.com/4207828/simpsons-search-engine/----thesimpsonshappy.jpg
 
-* https://www.vector-eps.com/transparent-cards-and-envelopes/-----transparent-envelope-template5.jpg
+* https://www.meme-arsenal.com/en/create/template/83323-----petition.jpg
 
 * https://www.paperplace.com.au/products/matte-yellow-c5-envelope-----yellow-c5-banker_grande.jpg
 

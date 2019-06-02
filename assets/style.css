@@ -24,6 +24,11 @@ ul {
     padding: 0;
 
 }
+audio{
+    background-color: rgba(255,255,255,0.5);
+    padding: 5px;
+    border-radius: 5px; 
+}
 .dark {
     padding: 15px;
     background: #fbc531;
@@ -31,7 +36,11 @@ ul {
     margin-top: 18px;
     margin-bottom: 10px;
     text-align: center;
-    background:url("../assets/images/transparent-envelope-template5.jpg") center no-repeat;
+    background:url("../assets/images/petition.jpg") center no-repeat;
+    background-size: cover;
+    border-style: double;
+    border-color: brown;
+    border-radius: 10px;
 }
 .dark2{
     padding: 15px;
@@ -92,9 +101,8 @@ ul {
     transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-/*Title*/
-
 /*header*/
+
 header {
     background: #BA5536;
     color: #332900;
@@ -280,6 +288,11 @@ figure.slider figure figcaption {
 }
 .wrapper_video{
     margin: 15px 0 25px 0;
+    background-color: #F1C40F;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: yellow;
 }
 iframe{
     height: 190px
@@ -303,14 +316,13 @@ iframe{
 }
 #newsletter input[type="email"] {
     padding: 4px;
-    height: 45px;
+    height: 47px;
     width: 200px;
 }
 
 #main1{
      animation: bgcolor infinite 20s;
 }
-
 /*-----acordeon-----*/
 
 body {
@@ -401,6 +413,18 @@ aside#sidebar {
     margin-top: 10px;
     border:2px solid red;
 }
+.text-paragraph{ 
+        font-size:25px;
+        margin-top: 20px;
+        color: #f2910d;
+        font-weight:100;
+    }
+.aside_title{
+    color: red;
+    background-color: rgba(255,255,255,0.5);
+    padding: 5px;
+    border-radius: 5px;
+}    
 
 /*Main-col*/
 
@@ -444,7 +468,7 @@ ul#service li {
     list-style: none;
 }
 .bordered h3 {
-    color: white;
+    color: #FFFF0A;
     text-align: left;
     margin: 0px;
 }
@@ -457,6 +481,15 @@ ul#service li {
 }
 .bordered audio .long {
     width: 95%;
+}
+.subtitle_songs{
+    
+    
+}
+label{ 
+    background-color: rgba(255,255,255,0.5);
+    padding: 5px;
+    border-radius: 5px;
 }
 
 /* - Library grid----personages video */
@@ -555,6 +588,10 @@ footer {
  .img {
     display: none;
 }
+iframe{
+        width:100%;
+    }
+
 @media(max-width: 812px) {
     header #bart,
     header nav,
@@ -589,7 +626,7 @@ header {
 #newsletter button {
         display: inline-block;
         width: 75%;
-        height:20px;
+        height:25px;
         font-size: 11px;
         line-height: 10%;
 }
@@ -608,19 +645,28 @@ header {
 }
 .request{
         text-align: center
-        
     }
 }
 
 @media only screen and (max-width: 1024px) { 
     .itchy_title{
         font-size: 20px;
-        
-    }
+        }
     #newsletter {
     height: 135px;
-}
+    }
+    .text-paragraph{ 
+        font-size:19px
+    }
 } 
+
+.aside_audio_title{
+    font-size: 24px;
+    text-align:center;
+}
+.aside_audio_paragraph{
+    font-size: 15px;
+}
 
 
 @media only screen and (min-width: 1024px) { 
@@ -679,8 +725,9 @@ div#captioned-gallery  {
 /*----Contact----*/
 
 .large {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 95px;
+    background-color:rgba(161, 149, 149, 0.5);
 }
 .contacts {
     color:#99ff33;
@@ -688,6 +735,11 @@ div#captioned-gallery  {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
+}
+.sub_container_contacts{
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
 .list-unstyled {
     color:red;
@@ -700,12 +752,16 @@ div#captioned-gallery  {
     text-transform: uppercase;
 }
 .ctitle p {
-    font-size: 37px;
+    font-size: 27px;
     font-weight: 300;
-    color: chartreuse;
+    color: yellow;
+    text-align:center;
 }
 .contact_title{
     color: red;
+    font-size:40px;
+    text-decoration: underline;
+    text-align:center;
 }
 .input ul {
     margin-top:20px;
@@ -733,7 +789,8 @@ div#captioned-gallery  {
     color:#ea0000;
 }
 .btn {
-    margin-top: 10px
+    margin-top: 10px;
+    width:100px;
 }
 
 

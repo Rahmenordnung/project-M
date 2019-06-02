@@ -144,7 +144,7 @@ __The commun element of each page along the site is a menu under the <nav> selec
 
 The app was tested on Samsung S8, Apple iPhone 6, etc, (all the deviced served in the  [Chrome developer tools](https://developer.chrome.com/home/devtools-pillar) and also using the Google Chrome inspect feature to test for repsonsiveness and any errors that occurred. There were many issues founded most of them with the css sidevar/ navbar not resizing, card etc. Also this tool is usefull ,using their console, in founding java errors
 
-These tests included browsers/devices:
+These tests included browsers/devices such as:
 Edge, Mozilla, Chrome, Safari, Internet Explorer 
 
 During the producing time I tested all the link from the navbar, that they take to the desired page and back again.  
@@ -172,7 +172,7 @@ Try to submit the form with all inputs valid and verify that a success message a
    
 ##  <a name="Deployment"></a>Deployment
 The website is published in GitHub using -[Github pages](https://github.com/). 
-Where one can discover interesting projects and people with whom to programm toghether .
+Where one can discover interesting projects and people with whom to program toghether .
 
 ## <a name="Content"></a>Content 
 The text for section aside of the Concerts and Gigs was copied from the  [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) in the first box of the acordeon, and ["The Guardian"](https://www.theguardian.com/commentisfree/2018/nov/01/apu-simpsons-hero) article in the 3rd box of the same section.  
