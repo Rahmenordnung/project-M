@@ -267,19 +267,19 @@ figure.slider figure figcaption {
         background: #cccc00;
     }
     20% {
-        background: #ffff00;
+        background: #e67300;
     }
     40% {
-        background: #e6e600;
+        background: #e69900;
     }
     60% {
-        background: #999900;
+        background: #997a00;
     }
     80% {
-        background: #ffff33;
+        background: #b35900;
     }
     100% {
-        background: #ffff66;
+        background: #b38600;
     }
 }
 .video_title_category{
